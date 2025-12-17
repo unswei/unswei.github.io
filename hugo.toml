@@ -13,7 +13,7 @@
 # website title
 title = "embodied intelligence and collective robotics"
 # Hostname (and path) to the root
-baseURL = "https://unsw-eicrl.github.io/"
+baseURL = "https://unswei.github.io/"
 # theme list
 theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
@@ -64,7 +64,7 @@ icon = ""
 [[menu.main]]
 identifier = "github"
 parent = ""
-url = "https://github.com/unsw-eicrl"
+url = "https://github.com/unswei"
 name = ""
 weight = 9
 [menu.main.params]
@@ -708,7 +708,7 @@ paginate = 6
 
 # FixIt 0.2.16 | CHANGED Social config about the author
 [params.social]
-GitHub = "https://github.com/unsw-eicrl"
+GitHub = "https://github.com/unswei"
 Linkedin = ""
 Twitter = ""
 Instagram = ""
