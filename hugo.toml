@@ -45,6 +45,8 @@ mainSections = ["posts"]
 
 [menu]
 
+
+
 [[menu.main]]
 identifier = "research"
 parent = ""
@@ -56,17 +58,42 @@ name = "Research"
 url = "/research/"
 # title will be shown when you hover on this menu link
 title = "research directions"
-weight = 6
+weight = 2
 
 [menu.main.params]
 icon = ""
+
+[[menu.main]]
+identifier = "people"
+name = "People"
+url = "/people/"
+weight = 4
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 6
+
+[[menu.main]]
+identifier = "publications"
+name = "Publications"
+url = "/publications/"
+weight = 8
+
+[[menu.main]]
+identifier = "news"
+name = "News"
+url = "/news/"
+weight = 10
+
 
 [[menu.main]]
 identifier = "github"
 parent = ""
 url = "https://github.com/unswei"
 name = ""
-weight = 9
+weight = 12
 [menu.main.params]
 icon = "fa-brands fa-github fa-fw"
 
@@ -82,7 +109,7 @@ name = "Archives"
 url = "/archives/"
 # title will be shown when you hover on this menu link
 title = ""
-weight = 10
+weight = 14
 
 # FixIt 0.2.14 | NEW add user-defined content to menu items
 [menu.main.params]
