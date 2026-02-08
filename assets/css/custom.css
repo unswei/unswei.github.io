@@ -51,10 +51,10 @@
 
 /* body text serif */
 body {
-  font-family: "Roboto Slab", "Source Serif 4", serif;
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;  
   font-weight: 400;
-  font-size: 1.05rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .menu-link,
