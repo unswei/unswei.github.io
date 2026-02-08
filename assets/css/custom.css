@@ -14,7 +14,7 @@
     align-items: center;
     gap: 0.6rem;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .header-title {
     font-size: clamp(1.0rem, 4.2vw, 1.3rem) !important;
     white-space: normal !important;
@@ -54,6 +54,7 @@
 #header-mobile .theme-switch i {
   color: #f2f2f2 !important;
   fill: #f2f2f2 !important;
+  background: #000 !important;
 }
 
 #header-desktop a:hover,
