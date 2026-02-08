@@ -1,3 +1,15 @@
+@media (max-width: 480px) {
+  .header-title {
+    font-size: clamp(1.0rem, 4.2vw, 1.3rem) !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    min-width: 0 !important;
+    line-height: 1.1;
+    max-width: 72vw;
+  }
+}
+
 .header-subtitle {
     margin-top: 0.15rem;
     opacity: 0.8;
