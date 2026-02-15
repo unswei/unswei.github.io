@@ -152,3 +152,7 @@ html[data-theme="dark"] .home .content p,
 html[data-theme="dark"] .home .content li {
   opacity: 0.99;
 }
+
+.left {
+    float: left;
+}
