@@ -156,3 +156,5 @@ html[data-theme="dark"] .home .content li {
 .left {
     float: left;
 }
+.clear { clear: both; }
+
