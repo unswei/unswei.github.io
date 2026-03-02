@@ -48,44 +48,107 @@ mainSections = ["posts"]
 
 
 [[menu.main]]
-identifier = "research"
+identifier = "menu"
 parent = ""
 # you can add extra information before the name (HTML format is supported), such as icons
 pre = ""
 # you can add extra information after the name (HTML format is supported), such as icons
 post = ""
+name = "Menu"
+url = ""
+title = ""
+weight = 2
+
+[menu.main.params]
+icon = ""
+type = "desktop"
+
+[[menu.main]]
+identifier = "research"
+parent = "menu"
 name = "Research"
 url = "/research/"
-# title will be shown when you hover on this menu link
 title = "research directions"
 weight = 2
 
 [menu.main.params]
 icon = ""
+type = "desktop"
 
 [[menu.main]]
 identifier = "people"
+parent = "menu"
 name = "People"
 url = "/people/"
 weight = 4
 
 [[menu.main]]
 identifier = "projects"
+parent = "menu"
 name = "Projects"
 url = "/projects/"
 weight = 6
 
 [[menu.main]]
 identifier = "publications"
+parent = "menu"
 name = "Publications"
 url = "/publications/"
 weight = 8
 
 [[menu.main]]
 identifier = "news"
+parent = "menu"
 name = "News"
 url = "/news/"
 weight = 10
+
+[[menu.main]]
+identifier = "research-mobile"
+name = "Research"
+url = "/research/"
+title = "research directions"
+weight = 2
+
+[menu.main.params]
+icon = ""
+type = "mobile"
+
+[[menu.main]]
+identifier = "people-mobile"
+name = "People"
+url = "/people/"
+weight = 4
+
+[menu.main.params]
+type = "mobile"
+
+[[menu.main]]
+identifier = "projects-mobile"
+name = "Projects"
+url = "/projects/"
+weight = 6
+
+[menu.main.params]
+type = "mobile"
+
+[[menu.main]]
+identifier = "publications-mobile"
+name = "Publications"
+url = "/publications/"
+weight = 8
+
+[menu.main.params]
+type = "mobile"
+
+[[menu.main]]
+identifier = "news-mobile"
+name = "News"
+url = "/news/"
+weight = 10
+
+[menu.main.params]
+type = "mobile"
 
 
 [[menu.main]]
@@ -120,7 +183,7 @@ draft = false
 # FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item
 icon = "fa-solid fa-archive"
 # FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
-type = ""
+type = "mobile"
 # FixIt 0.3.9 | NEW whether to show the submenu item divider line
 divided = false
 
@@ -136,6 +199,7 @@ weight = 20
 
 [menu.main.params]
 icon = "fa-solid fa-folder-tree"
+type = "mobile"
 
 [[menu.main]]
 identifier = "tags"
@@ -149,6 +213,7 @@ weight = 30
 
 [menu.main.params]
 icon = "fa-solid fa-tags"
+type = "mobile"
 
 # -------------------------------------------------------------------------------------
 # Related content Configuration

@@ -1,0 +1,29 @@
+{{- define "title" -}}
+  {{- title (.Params.Title | default ((T .Section) | default .Section | dict "Some" | T "allSome")) -}}
+  {{- if .Site.Params.withSiteTitle }} {{ .Site.Params.titleDelimiter }} {{ .Site.Title }}{{- end -}}
+{{- end -}}
+
+{{- define "content" -}}
+  <div class="page archive">
+    <div class="header">
+      <h1 class="single-title animate__animated animate__pulse animate__faster">
+        {{- dict "Class" "fa-solid fa-diagram-project fa-fw me-1" | partial "plugin/icon.html" -}}
+        {{- title (.Params.Title | default ((T .Section) | default .Section | dict "Some" | T "allSome")) -}}
+      </h1>
+    </div>
+
+    <div class="projects-grid">
+      {{- range .Pages.ByWeight.ByTitle -}}
+        <article class="project-card">
+          <a class="project-card-link" href="{{ .RelPermalink }}">
+            <div class="project-thumb">{{ .Title }}</div>
+            <div class="project-meta">
+              <h2 class="project-name">{{ .Title }}</h2>
+              <p class="project-desc">{{ .Params.summary | default .Summary }}</p>
+            </div>
+          </a>
+        </article>
+      {{- end -}}
+    </div>
+  </div>
+{{- end -}}
