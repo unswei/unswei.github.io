@@ -15,4 +15,4 @@ Frieder is a long-standing collaborator, and it is excellent to have him here in
 
 During his visit, we will focus on advancing our joint research on efficient recurrent neural networks. This continues our shared line of work and aims to connect theory with practical systems for robotics. 
 If you are on campus and would like to connect while Frieder is here, feel free to reach out.
-![Oliver and Frieder in the office](/images/2026-02-frieder.jpeg)
+![Oliver and Frieder in the office](/images/202602-frieder.jpeg)
