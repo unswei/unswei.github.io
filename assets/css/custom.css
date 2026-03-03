@@ -96,6 +96,23 @@
   color: #ffcc00 !important;  /* yellow accent */
 }
 
+/* light mode header text/icons should be dark (title, menu, github icon) */
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-mobile,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop a,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-mobile a,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .header-title-text,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-mobile .header-title-text,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .menu-link,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-mobile .menu-link,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .menu-link i,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-mobile .menu-link i,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .theme-switch i,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-mobile .theme-switch i {
+  color: #111111 !important;
+  fill: currentColor !important;
+}
+
 /* light mode desktop menu dropdown: black text on white background */
 html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .menu-item.has-children > .menu-link,
 html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .sub-menu,
