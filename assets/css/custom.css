@@ -96,6 +96,23 @@
   color: #ffcc00 !important;  /* yellow accent */
 }
 
+/* light mode desktop menu dropdown: black text on white background */
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .menu-item.has-children > .menu-link,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .sub-menu,
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .sub-menu .menu-link {
+  background: #ffffff !important;
+  color: #111111 !important;
+}
+
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .menu-item.has-children > .dropdown-icon {
+  color: #111111 !important;
+}
+
+html:not(.dark):not([data-theme="dark"]):not([data-scheme="dark"]) #header-desktop .sub-menu .menu-link:hover {
+  background: #f1f1f1 !important;
+  color: #000000 !important;
+}
+
 /* body text serif */
 body {
   font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;  
