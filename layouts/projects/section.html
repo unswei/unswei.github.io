@@ -14,9 +14,16 @@
 
     <div class="projects-list">
       {{- range .Pages.ByWeight.ByTitle -}}
+        {{- $project := . -}}
         <article class="project-card">
           <a class="project-card-link" href="{{ .RelPermalink }}">
-            <div class="project-thumb">{{ .Title }}</div>
+            <div class="project-thumb">
+              {{- with .Params.thumbnail -}}
+                <img class="project-thumb-img" src="{{ . | relURL }}" alt="{{ $project.Title }}">
+              {{- else -}}
+                {{ .Title }}
+              {{- end -}}
+            </div>
             <div class="project-meta">
               <h2 class="project-name">{{ .Title }}</h2>
               <p class="project-desc">{{ .Params.summary | default .Summary }}</p>

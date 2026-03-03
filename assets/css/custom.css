@@ -291,9 +291,9 @@ html[data-theme="dark"] .home .content li {
 }
 
 .project-thumb {
-  width: 100px;
-  height: 100px;
-  flex: 0 0 100px;
+  width: 150px;
+  height: 150px;
+  flex: 0 0 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -305,6 +305,14 @@ html[data-theme="dark"] .home .content li {
   color: #ffcc00;
   background: linear-gradient(145deg, rgba(255, 204, 0, 0.16), rgba(0, 0, 0, 0.2));
   border-radius: 0.55rem;
+}
+
+.project-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  display: block;
 }
 
 .project-meta {
@@ -329,12 +337,5 @@ html[data-theme="dark"] .home .content li {
   .project-card-link {
     padding: 0.65rem 0.75rem;
     gap: 0.75rem;
-  }
-
-  .project-thumb {
-    width: 88px;
-    height: 88px;
-    flex-basis: 88px;
-    font-size: 0.86rem;
   }
 }

@@ -2,6 +2,7 @@
 title: "l1-gt"
 date: 2026-02-08T17:24:00+11:00
 summary: "L1-GT is an open, wheeled-biped research platform."
+thumbnail: "/images/l1-gt-500_150.png"
 ---
 L1-GT is an open, wheeled-biped research platform.
 
