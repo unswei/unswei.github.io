@@ -1,7 +1,7 @@
 ---
 title: "muesli-bt"
 date: 2026-02-08T17:24:00+11:00
-summary: "muesli-bt is a deliberately anachronistic-looking robotics behaviour system: a small Lisp at the centre, used to author behaviour trees that run inside a host robot application."
+summary: "muesli-bt is a small Lisp-based runtime for robotics behaviour systems."
 ---
 
 muesli-bt is a deliberately anachronistic-looking robotics behaviour system: a small Lisp at the centre, used to author behaviour trees that run inside a host robot application.
