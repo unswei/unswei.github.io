@@ -11,7 +11,7 @@ draft: false
 
 #### robotics in care: poster accepted
 
-Our poster on **robotic assistance in physical care**, a joint project with **Western Sydney University**, has been accepted for presentation at the **26th IEEE/ACM CCGRID 2026**.
+Our poster on **robotic assistance in physical care**, a joint project between **UNSW** and **Western Sydney University**, has been accepted for presentation at the **26th IEEE/ACM CCGRID 2026**.
 
 In the project we explore how robotic systems can support physical care tasks through safe perception, planning, and interaction in close proximity to people. The acceptance provides an early opportunity to discuss this research direction with the broader community and to present the project in its current form.
 
@@ -22,9 +22,9 @@ We look forward to the poster session and the discussions around safe and useful
 
 We have released **muesli-bt v0.4.0** and **muesli-studio v0.2.0**.
 
-**muesli-bt** is a compact Lisp runtime for robotics with an integrated Behaviour Tree engine, bounded-time planning, and asynchronous capability orchestration. It combines explicit tick semantics, canonical event logging, deterministic fixtures, and conformance checks across core, simulator, and ROS2-backed paths. Optional CMake exports are available for PyBullet, Webots, and a first ROS2 transport lane. On the current shared benchmark subset under matched conditions, muesli-bt shows lower tick latency and much cheaper instantiation than BehaviorTree.CPP 4.9.0. :contentReference[oaicite:2]{index=2}
+**muesli-bt** is a compact Lisp runtime for robotics with an integrated Behaviour Tree engine, bounded-time planning, and asynchronous capability orchestration. It combines explicit tick semantics, canonical event logging, deterministic fixtures, and conformance checks across core, simulator, and ROS2-backed paths. Optional CMake exports are available for PyBullet, Webots, and a first ROS2 transport lane. On the current shared benchmark subset under matched conditions, muesli-bt shows lower tick latency and much cheaper instantiation than BehaviorTree.CPP 4.9.0.
 
-**muesli-studio** is the companion inspector for replay and live monitoring. It uses the same canonical event stream for both recorded and live runs, and includes run summaries, node inspection, blackboard diffs, presentation mode, and export paths for figures and compact publication bundles. :contentReference[oaicite:3]{index=3}
+**muesli-studio** is the companion inspector for replay and live monitoring. It uses the same canonical event stream for both recorded and live runs, and includes run summaries, node inspection, blackboard diffs, presentation mode, and export paths for figures and compact publication bundles.
 
 Documentation:
 [https://unswei.github.io/muesli-bt/](https://unswei.github.io/muesli-bt/)
