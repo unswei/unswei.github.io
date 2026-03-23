@@ -2,7 +2,8 @@
 title: "robotic assistance in physical care"
 date: 2026-03-23
 draft: false
-summary: "A joint UNSW and Western Sydney University project on safe, perception-driven robotic assistance for physical care."
+summary: "A project on safe, perception-driven robotic assistance for physical care."
+thumbnail: "/images/assistive-150x150.jpg"
 tags:
   - healthcare robotics
   - assistive robotics
