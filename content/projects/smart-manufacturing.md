@@ -2,7 +2,8 @@
 title: "smart manufacturing for composite structures"
 date: 2026-03-23
 draft: false
-summary: "A joint UNSW, University of Sydney, and Western Sydney University project developing trustworthy machine learning for lower-cost, high-performance composite manufacturing."
+summary: "An ARC DP project developing trustworthy machine learning for lower-cost, high-performance composite manufacturing."
+thumbnail: "/images/composite-150x150.jpg"
 tags:
   - advanced manufacturing
   - machine learning
