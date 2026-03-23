@@ -16,5 +16,7 @@ date: 2026-02-08T17:25:00+11:00
 
 ### Working notes & presentations
 
+- Jagarlamudi, K. S., Tague, R., Desmond, J., Lau, C. W., Wu, H., Ginige, A., Obst, O. (2026). *Edge-Based Perception-Driven Robotic System for Assistive Patient Care.* Accepted at **CCGRID 2026**, the 26th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing.
+
 - Obst, O., Weigend, F. C., Graf, L. (2025). *Empowerment under uncertainty: Approximate Bayesian exploration in model-based RL.* Presented at **IMOL 2025** (The 7th International Workshop on Intrinsically Motivated Open-ended Learning), Hatfield, UK, 8-10 Sep 2025.  Extended abstract [available here](https://imol2025.github.io/assets/abstracts/CT2.pdf). 
 
