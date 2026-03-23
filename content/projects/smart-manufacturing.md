@@ -29,5 +29,5 @@ A key part of this work is uncertainty. In manufacturing, it is not enough to pr
 ## investigators
 
 - Oliver Obst
-- Lyong Tong (USyd)
+- Liyong Tong (USyd)
 - Brian Falzon (WSU)
