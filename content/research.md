@@ -3,6 +3,7 @@ title: "research directions"
 toc: true
 date: 2025-12-14T18:27:00+11:00
 
+Our long-term goal is to understand and engineer physical and collective intelligence in robots, so that robust autonomy emerges from the interaction of body, learning, and structure rather than from computational scale alone.
 
 ---
 # Topics
