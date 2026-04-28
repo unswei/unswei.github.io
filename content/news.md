@@ -1,11 +1,20 @@
 ---
 title: "news"
-date: 2026-02-03
+date: 2026-03-28
 slug: "news"
 categories: ["news"]
 tags: ["news"]
 draft: false
 ---
+
+### Apr 2026
+
+rUNSWift will be taking part in the new RoboCup Humanoid Soccer League with our Booster robots, and we will also compete in the RoboCup@Home League.
+
+RoboCup 2026 will be held from 30 June to 6 July 2026 at Songdo Convensia in Incheon, South Korea. It will be a good opportunity to test our robotics work in a competitive setting, and to give everyone hands-on experience with autonomous robots and real deadlines - no extensions possible ;)
+
+Photo: Matildas game in Sydney, for a bit of football inspiration.
+![til it's done](/images/202604-matildas.jpeg)
 
 ### Mar 2026
 
