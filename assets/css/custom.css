@@ -249,8 +249,7 @@ h3 { font-size: 1.25rem; }
 
 @media (min-width: 1180px) {
   .research-topics-layout {
-    width: calc(100% + 18rem);
-    grid-template-columns: minmax(0, 1fr) 16rem;
+    grid-template-columns: minmax(0, 1fr) 18rem;
   }
 
   .research-note-link {
