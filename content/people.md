@@ -10,5 +10,11 @@ date: 2026-02-08T17:22:00+11:00
 
 <br class="clear" />
 
+# HDR Research students
+
+{{< figure src="/images/person-placeholder.svg" caption="Tongzhong Shi, MPhil student" alt="Tongzhong Shi" class="left" >}}
+
+<br class="clear" />
+
 # Visiting fellows
 {{< figure src="/images/frieder.jpeg" caption="Frieder Stolzenburg" alt="Prof Frieder Stolzenburg" class="left" >}}
