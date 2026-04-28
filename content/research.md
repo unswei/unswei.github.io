@@ -6,7 +6,16 @@ date: 2025-12-14T18:27:00+11:00
 Our long-term goal is to understand and engineer physical and collective intelligence in robots, so that robust autonomy emerges from the interaction of body, learning, and structure rather than from computational scale alone.
 
 # Topics
+<div class="research-topics-layout">
+<div class="research-topics-list">
 {{% toc %}}
+</div>
+<aside class="research-note-link" aria-label="Related note">
+  <p class="research-note-kicker">Note</p>
+  <a href="/notes/applying-for-a-phd-with-me/">Applying for a PhD with me</a>
+  <p>Information for prospective doctoral applicants on supervision, admission, and scholarship funding.</p>
+</aside>
+</div>
 
 
 ## Data-efficient embodied learning for manipulation

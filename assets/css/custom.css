@@ -193,6 +193,57 @@ h1 { font-size: 1.9rem; }
 h2 { font-size: 1.5rem; }
 h3 { font-size: 1.25rem; }
 
+.research-topics-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(13rem, 17rem);
+  gap: 1.4rem;
+  align-items: start;
+  margin: 0.8rem 0 1.6rem;
+}
+
+.research-topics-list {
+  min-width: 0;
+}
+
+.research-note-link {
+  border-left: 3px solid #ffcc00;
+  padding: 0.1rem 0 0.25rem 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.research-note-link .research-note-kicker {
+  margin: 0 0 0.15rem;
+  color: #ffcc00;
+  font-family: "Oswald", "Inter", "Segoe UI", system-ui, -apple-system, Arial, sans-serif !important;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.research-note-link a {
+  display: inline-block;
+  font-family: "Oswald", "Inter", "Segoe UI", system-ui, -apple-system, Arial, sans-serif !important;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.research-note-link p:last-child {
+  margin: 0.35rem 0 0;
+  opacity: 0.82;
+}
+
+@media (max-width: 760px) {
+  .research-topics-layout {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+
+  .research-note-link {
+    order: -1;
+  }
+}
+
 /* headings back to sans */
 h1, h2, h3, h4, h5, h6,
 .heading-element,
