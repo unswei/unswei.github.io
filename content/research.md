@@ -13,7 +13,6 @@ Our long-term goal is to understand and engineer physical and collective intelli
 <div class="research-note-link" role="complementary" aria-label="Related note">
   <p class="research-note-kicker">Note</p>
   <a href="/notes/applying-for-a-phd-with-me/">Applying for a PhD with me</a>
-  <p>Information for prospective doctoral applicants on supervision, admission, and scholarship funding.</p>
 </div>
 </div>
 

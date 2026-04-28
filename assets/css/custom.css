@@ -194,10 +194,7 @@ h2 { font-size: 1.5rem; }
 h3 { font-size: 1.25rem; }
 
 .research-topics-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(13rem, 17rem);
-  gap: 1.4rem;
-  align-items: start;
+  position: relative;
   margin: 0.8rem 0 1.6rem;
 }
 
@@ -206,6 +203,7 @@ h3 { font-size: 1.25rem; }
 }
 
 .research-note-link {
+  display: inline-block;
   border: 1px solid rgba(255, 204, 0, 0.35);
   border-left: 3px solid #ffcc00;
   border-radius: 0.35rem;
@@ -238,7 +236,8 @@ h3 { font-size: 1.25rem; }
 
 @media (max-width: 760px) {
   .research-topics-layout {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 0.9rem;
   }
 
@@ -248,13 +247,11 @@ h3 { font-size: 1.25rem; }
 }
 
 @media (min-width: 1180px) {
-  .research-topics-layout {
-    grid-template-columns: minmax(0, 1fr) 18rem;
-  }
-
   .research-note-link {
-    position: sticky;
-    top: 5rem;
+    position: absolute;
+    left: calc(100% + 1.4rem);
+    top: 0;
+    width: 14rem;
   }
 }
 
