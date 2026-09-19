@@ -2,7 +2,7 @@
 title: "Blackwell"
 description: "JAX-native probabilistic robotics: manifold-aware Gaussian and particle state estimation, simulation and consistency metrics."
 date: 2026-08-27T00:00:00+10:00
-lastmod: 2026-08-29T00:00:00+10:00
+lastmod: 2026-09-20T00:00:00+10:00
 weight: 1
 draft: false
 showChildren: false
@@ -20,11 +20,15 @@ Blackwell is a compact probabilistic-robotics library for manifold-aware Gaussia
 </div>
 
 <div class="blackwell-docs-facts">
-  <div class="blackwell-docs-fact"><strong>SE(2)-native</strong><small>Covariance lives in local tangent coordinates.</small></div>
+  <div class="blackwell-docs-fact"><strong>SE(2) and SE(3)</strong><small>Covariance lives in local tangent coordinates.</small></div>
   <div class="blackwell-docs-fact"><strong>Transform-ready</strong><small>Pure kernels compose with JAX transformations.</small></div>
   <div class="blackwell-docs-fact"><strong>Two estimators</strong><small>Extended Kalman and bootstrap particle filters.</small></div>
   <div class="blackwell-docs-fact"><strong>Evaluation built in</strong><small>Simulation, RMSE and NEES are public APIs.</small></div>
 </div>
+
+Version **0.0.2** adds SE(3) transforms and correlated uncertainty propagation.
+Read the [SE(3) example](/blackwell/examples/se3-uncertainty/) or the
+[release notes](https://github.com/unswei/blackwell/releases/tag/v0.0.2).
 
 ## What can I do with it today?
 
@@ -32,6 +36,7 @@ Blackwell is a compact probabilistic-robotics library for manifold-aware Gaussia
   <a class="blackwell-docs-card" href="/blackwell/guides/extended-kalman-filter/"><strong>Localise a planar robot</strong><small>Estimate an SE(2) pose from body-frame motion and landmark range-bearing observations.</small></a>
   <a class="blackwell-docs-card" href="/blackwell/examples/linear-kalman-filter/"><strong>Track linear systems</strong><small>Use the generic EKF as an ordinary Kalman filter with Euclidean linear models.</small></a>
   <a class="blackwell-docs-card" href="/blackwell/guides/particle-filter/"><strong>Represent non-Gaussian beliefs</strong><small>Run a bootstrap particle filter with log-space weighting and explicit resampling.</small></a>
+  <a class="blackwell-docs-card" href="/blackwell/examples/se3-uncertainty/"><strong>Propagate 3D uncertainty</strong><small>Compose and invert SE(3) transforms, and transform correlated uncertain points.</small></a>
   <a class="blackwell-docs-card" href="/blackwell/guides/simulation-and-evaluation/"><strong>Test consistency</strong><small>Generate reproducible trajectories and evaluate errors with RMSE and NEES.</small></a>
 </div>
 
@@ -70,7 +75,7 @@ The [five-minute localisation](/blackwell/getting-started/quickstart/) continues
   <a class="blackwell-docs-card" href="/blackwell/getting-started/"><strong>Start here</strong><small>Install the package, run a first localisation and choose an estimator.</small></a>
   <a class="blackwell-docs-card" href="/blackwell/concepts/"><strong>Concepts</strong><small>Understand beliefs, tangent coordinates, models, filters and JAX execution.</small></a>
   <a class="blackwell-docs-card" href="/blackwell/guides/"><strong>User guides</strong><small>Build complete EKF, particle-filter, simulation and custom-model workflows.</small></a>
-  <a class="blackwell-docs-card" href="/blackwell/examples/"><strong>Examples</strong><small>Run complete linear and SE(2) estimation scripts with reproducible outputs.</small></a>
+  <a class="blackwell-docs-card" href="/blackwell/examples/"><strong>Examples</strong><small>Run linear, SE(2) and SE(3) uncertainty workflows with reproducible outputs.</small></a>
   <a class="blackwell-docs-card" href="/blackwell/api/"><strong>API reference</strong><small>Look up public containers, operations, signatures, shapes and edge cases.</small></a>
   <a class="blackwell-docs-card" href="/blackwell/help/"><strong>Help</strong><small>Troubleshoot installation, JIT, numerical behaviour and platforms.</small></a>
 </div>

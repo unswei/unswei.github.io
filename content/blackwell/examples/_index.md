@@ -13,6 +13,7 @@ Every example is a standalone script under `examples/`, runs without plotting de
 | [Linear Kalman filter](/blackwell/examples/linear-kalman-filter/) | Euclidean model and `jax.lax.scan` | `uv run python examples/linear_kalman_filter.py` |
 | [SE(2) EKF localisation](/blackwell/examples/se2-localisation/) | Simulation, manifold EKF, RMSE and NEES | `uv run python examples/se2_localisation.py` |
 | [SE(2) particle localisation](/blackwell/examples/particle-localisation/) | Weighted particles, ESS and resampling | `uv run python examples/particle_localisation.py` |
+| [SE(3) uncertainty](/blackwell/examples/se3-uncertainty/) | Correlated composition, inversion and transformed points | `uv run python examples/se3_uncertainty.py` |
 
 Clone the repository and install all extras to reproduce figures:
 

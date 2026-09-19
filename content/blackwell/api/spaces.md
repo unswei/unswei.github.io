@@ -1,7 +1,8 @@
 ---
 title: "State spaces"
-description: "Euclidean and right-retraction SE(2) state-space operations."
+description: "Euclidean and right-retraction SE(2)/SE(3) state-space operations."
 weight: 20
+lastmod: 2026-09-20T00:00:00+10:00
 draft: false
 ---
 
@@ -60,3 +61,10 @@ transport(reference: Array, target: Array, covariance: Array) -> Array
 `transport` maps a `(3, 3)` covariance from the reference tangent coordinates to the target coordinates using the exact first-order Jacobian of re-expression, then symmetrises the result. It is valid away from the logarithm's unavoidable principal-angle branch cut.
 
 [View the Euclidean](https://github.com/unswei/blackwell/blob/main/src/blackwell/spaces/euclidean.py) and [SE(2) implementations](https://github.com/unswei/blackwell/blob/main/src/blackwell/spaces/se2.py).
+
+## SE(3)
+
+Version 0.0.2 adds `blackwell.spaces.se3`. Poses have shape `(7,)` in
+`[x, y, z, qx, qy, qz, qw]` order; body tangents have shape `(6,)`, with
+translation before rotation. See the [complete SE(3) reference](/blackwell/api/se3/)
+for conventions, group operations, point actions, logarithm limits and transport.

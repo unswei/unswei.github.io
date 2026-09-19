@@ -2,6 +2,7 @@
 title: "Installation"
 description: "Install Blackwell from PyPI and choose the correct JAX platform package."
 weight: 10
+lastmod: 2026-09-20T00:00:00+10:00
 draft: false
 ---
 
@@ -25,7 +26,7 @@ Verify the installation:
 python -c "import blackwell; print(blackwell.__version__)"
 ```
 
-The first published release reports version `0.0.1`. Blackwell remains pre-alpha: the supported surface is deliberately small, and API changes are possible before version 1.0.
+The current release reports version `0.0.2`, which adds SE(3). Upgrade an existing installation with `python -m pip install --upgrade blackwell`. Blackwell remains pre-alpha: the supported surface is deliberately small, and API changes are possible before version 1.0.
 
 ## JAX platform choice
 
