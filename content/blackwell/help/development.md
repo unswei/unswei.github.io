@@ -2,6 +2,7 @@
 title: "Development and contributing"
 description: "Set up a checkout, run checks and understand Blackwell's supported public surface."
 weight: 30
+lastmod: 2026-09-20T00:00:00+10:00
 draft: false
 ---
 
@@ -31,7 +32,7 @@ The repository's [contribution guide](https://github.com/unswei/blackwell/blob/m
 ```text
 src/blackwell/
   beliefs.py           immutable Gaussian and particle containers
-  spaces/              Euclidean and SE(2) geometry
+  spaces/              Euclidean, SE(2) and SE(3) geometry
   models/              dynamics and observation families
   filters/             EKF and bootstrap particle inference
   simulation.py        reproducible model rollouts
@@ -62,4 +63,4 @@ When public behaviour changes, update source docstrings, runnable examples and t
 
 ## Release state
 
-The current public release is `0.0.1`. Releases use semantic versioning, with API stability expected only from version 1.0 onwards. Each release is built as a wheel and source distribution, verified in a clean environment, published to PyPI through GitHub Actions Trusted Publishing, and documented in the [changelog](https://github.com/unswei/blackwell/blob/main/CHANGELOG.md).
+The current public release is `0.0.2`, including SE(3) geometry and correlated uncertainty propagation. See the [roadmap and release scope](/blackwell/help/roadmap/) for the wider v0.1 plan. Releases use semantic versioning, with API stability expected only from version 1.0 onwards. Each release is built as a wheel and source distribution, verified in a clean environment, published to PyPI through GitHub Actions Trusted Publishing, and documented in the [changelog](https://github.com/unswei/blackwell/blob/main/CHANGELOG.md).
