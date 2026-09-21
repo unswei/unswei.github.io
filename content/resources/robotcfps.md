@@ -2,7 +2,7 @@
 title: "RobotCFPs: Calls for Papers"
 description: "Selected open calls for papers in AI, machine learning, data science and robotics."
 date: 2026-07-11
-lastmod: 2026-09-14
+lastmod: 2026-09-21
 draft: false
 pageStyle: "wide"
 pageClass: "robotcfps-page"
@@ -18,23 +18,18 @@ The list is reviewed periodically rather than on a fixed schedule. The update da
 
 <!-- CFP-RADAR:START -->
 
-_Last updated: 2026-09-14._
+_Last updated: 2026-09-21._
 
 ## Open conference and workshop calls
 
 | Deadline | Call | Venue | Type | Event date | Location | Link |
 |---|---|---|---|---|---|---|
-| 2026-09-14<br>AoE | NEmo: Neuro-Symbolic Embodied Intelligence | NeurIPS 2026 | Workshop | 2026-12-12 | Sydney, Australia | [Official call](https://nemo.semantic.review/) |
-| 2026-09-15<br>AoE | IEEE International Conference on Robotics and Automation | ICRA 2027 | Conference | 2027-05-24<br>to 2027-05-28 | Seoul, South Korea | [Official call](https://2027.ieee-icra.org/contribute/) |
-| 2026-09-15<br>AoE | Insect-scale Autonomy | IROS 2026 | Workshop | 2026-10-01 | Pittsburgh, USA | [Official call](https://insect-autonomy.github.io/) |
-| 2026-09-18<br>AoE | ACM/IEEE International Conference on Human-Robot Interaction | HRI 2027 | Conference | 2027-03-08<br>to 2027-03-12 | Santa Clara, USA | [Official call](https://humanrobotinteraction.org/2027/full-papers/) |
-| 2026-09-18 | Do Robots Need World Models? Grounding, Evaluation, and Control for Robotics World Models | CoRL 2026 | Workshop | 2026-11-12 | Austin, USA | [Official call](https://robotics-world-models.github.io/corl2026/) |
-| 2026-09-20 | Australasian Conference on Robotics and Automation | ACRA 2026 | Conference | 2026-11-30<br>to 2026-12-02 | Canberra, Australia | [Official call](https://www.araa.asn.au/conference/acra-2026/) |
 | 2026-09-24<br>AoE | Memory for Robot Foundation Models | CoRL 2026 | Workshop | 2026-11-12 | Austin, USA | [Official call](https://corl2026-memory.github.io/) |
 | 2026-09-27<br>AoE | Agentic Robotics | CoRL 2026 | Workshop | 2026-11-12 | Austin, USA | [Official call](https://agentic-robotics-workshop.github.io/) |
 | 2026-10-01<br>AoE | HRI 2027 short contributions | HRI 2027 | Extended abstract | 2027-03-08<br>to 2027-03-12 | Santa Clara, USA | [Official call](https://humanrobotinteraction.org/2027/submissions/) |
 | 2026-10-02<br>EST | Intelligent Robotics and Multi-Agent Systems | SAC 2027 | Special track | 2027-04-05<br>to 2027-04-09 | Gwangju, South Korea | [Official call](https://www.sigapp.org/sac/sac2027/) |
 | 2026-10-02 | Oops, I Erred: Collecting, Curating and Using Imperfect Data for Realistic Scenarios | CoRL 2026 | Workshop | 2026-11-12 | Austin, USA | [Official call](https://workshop.oopsie-data.com/submit.html) |
+| 2026-10-04 | Australasian Conference on Robotics and Automation | ACRA 2026 | Conference | 2026-11-30<br>to 2026-12-02 | Canberra, Australia | [Official call](https://www.araa.asn.au/conference/acra-2026/) |
 | 2026-10-04<br>05:00 | Pretrain to Adapt: What Makes a Pretrained Policy Adaptable? | CoRL 2026 | Workshop | 2026-11-12 | Austin, USA | [Official call](https://corl2026-robotcl.github.io/) |
 | 2026-10-05<br>AoE | HRI 2027 workshops and tutorials | HRI 2027 | Workshop proposal | 2027-03-08<br>to 2027-03-12 | Santa Clara, USA | [Official call](https://humanrobotinteraction.org/2027/submissions/) |
 | 2026-10-05<br>AoE | Learn@Deploy: Robot Learning at Deployment Time | CoRL 2026 | Workshop | 2026-11-12 | Austin, USA | [Official call](https://learn-at-deploy.github.io/) |
@@ -48,12 +43,12 @@ _Last updated: 2026-09-14._
 | 2026-11-10 | International Symposium on Medical Robotics | ISMR 2027 | Symposium | 2027-04-27<br>to 2027-04-29 | Nashville, USA | [Official call](https://ismr.gatech.edu/2027/paper-submissions) |
 | 2026-11-12<br>AoE | AAMAS 2027 Blue Sky Ideas | AAMAS 2027 | Special track | 2027-05-03<br>to 2027-05-07 | Hanoi, Vietnam | [Official call](https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/) |
 | 2026-12-01<br>23:59 PST | ICRA 2027 Arts in Robotics | ICRA 2027 | Extended abstract | 2027-05-24<br>to 2027-05-28 | Seoul, South Korea | [Official call](https://2027.ieee-icra.org/contribute/) |
+| TBC | Robotics: Science and Systems | RSS 2027 | Conference | 2027-07-06<br>to 2027-07-11 | Athens, Greece | [Official call](https://roboticsconference.org/) |
 
 ## Open journal special issues
 
 | Deadline | Special issue | Journal | Topics | Link |
 |---|---|---|---|---|
-| 2026-09-19 | Swarm Robotics | npj Robotics | distributed control, multi-agent learning, robot swarms | [Official call](https://www.nature.com/collections/fhhcicdjad) |
 | 2026-09-30 | Learning-Based Motion Planning and Control for Contact-Rich Legged Robots | Robot Learning | legged robots, robot learning, motion planning, whole-body control | [Official call](https://www.elspublishing.com/journals/rl/special_issues/) |
 | 2026-10-01 | Human-in-the-Loop Robot Learning in the Era of Foundation Models: Challenges and Opportunities | Robot Learning | human feedback, foundation models, interactive robot learning, HRI | [Official call](https://www.elspublishing.com/journals/rl/special_issues/) |
 | 2026-10-30 | Intelligent Computing for Embodied AI and Robotics: Foundations and Platform Technologies | Intelligent Computing | foundation models, robot learning, simulation, HRI | [Official call](https://spj.science.org/page/icomputing/si/icomputing-ai-robotics) |
@@ -71,13 +66,6 @@ _Only calls that expired within the previous 31 days are retained._
 
 | Deadline | Call | Venue | Type | Event date | Location | Link |
 |---|---|---|---|---|---|---|
-| 2026-08-14<br>AoE | Space Exploration and Sustained Operations Beyond Earth | IROS 2026 | Workshop | 2026-09-27 | Pittsburgh, USA | [Official call](https://space-robots.org/iros2026/) |
-| 2026-08-15 | IEEE International Conference on Robotics and Biomimetics | ROBIO 2026 | Conference | 2026-12-16<br>to 2026-12-20 | Tengchong, China | [Official call](https://www.robio2026.org/) |
-| 2026-08-17 | 8th Workshop on Formal Methods for Autonomous Systems | FMAS 2026 | Workshop | 2026-11-17<br>to 2026-11-18 | Southampton, UK | [Official call](https://fmasworkshop.github.io/FMAS2026/) |
-| 2026-08-17 | Human–Robot Dialogue | IROS 2026 | Workshop | 2026-10-01 | Pittsburgh, USA | [Official call](https://human-robot-dialogue.github.io/) |
-| 2026-08-20 | AI Meets Control for Resilient and Reliable Robot Planning | IROS 2026 | Workshop | 2026-10-01 | Pittsburgh, USA | [Official call](https://sites.google.com/view/aim-ctrl/call-for-papers) |
-| 2026-08-20 | Sim2Real and Classical Control | IROS 2026 | Workshop | 2026-10-01 | Pittsburgh, USA | [Official call](https://sim2realgap.github.io/sim2real-and-control-workshop-iros2026/) |
-| 2026-08-20 | Physical World Models for Scaling Embodied AI | IROS 2026 | Workshop | 2026-10-01 | Pittsburgh, USA | [Official call](https://physical-world-models.github.io/IROS2026/) |
 | 2026-08-21 | Bridging Perspectives in Navigation | IROS 2026 | Workshop | 2026-09-27 | Pittsburgh, USA | [Official call](https://bridging-navigation.github.io/website/) |
 | 2026-08-21 | AI and the Verification of Autonomous Systems | IROS 2026 | Workshop | 2026-10-01 | Pittsburgh, USA | [Official call](https://sites.google.com/view/vas-iros-workshop/) |
 | 2026-08-22<br>AoE | 8th Robot Learning Workshop: Is Physical AI Going Zero-Shot? | NeurIPS 2026 | Workshop | 2026-12-11<br>or 2026-12-12 | Sydney, Australia | [Official call](https://www.robot-learning.ml/2026/submissions/) |
@@ -86,7 +74,6 @@ _Only calls that expired within the previous 31 days are retained._
 | 2026-08-26<br>08:00 UTC | Physical Understanding for Decision-Making | NeurIPS 2026 | Workshop | 2026-12-11<br>or 2026-12-12 | Sydney, Australia | [Official call](https://sites.google.com/view/neurips-2026-workshop-pudm) |
 | 2026-08-27 | Tightly Coupled Physical Collaboration in Multi-Robot Systems | IROS 2026 | Workshop | 2026-09-27 | Pittsburgh, USA | [Official call](https://physcollabot.github.io/call/index.html) |
 | 2026-08-28 | From Innovation to Adoption: Hardware, AI, Policy, and Funding Challenges in Agricultural Robotics | IROS 2026 | Extended abstract | 2026-10-01 | Pittsburgh, USA | [Official call](https://sites.google.com/view/iros2026-agrobotics/call-for-contributions) |
-| 2026-08-29<br>AoE | Efficient and On-Device AI Agents | NeurIPS 2026 | Workshop | 2026-12-11<br>or 2026-12-12 | Sydney, Australia | [Official call](https://efficient-ondevice-ai-agents.github.io/) |
 | 2026-08-29<br>AoE | Geometric Distributional Deep Learning | NeurIPS 2026 | Workshop | 2026-12-12<br>to 2026-12-13 | Paris, France | [Official call](https://gddl-neurips-2026.github.io/) |
 | 2026-08-29<br>AoE | PTA: From Pretrained Representations to Acting Agents | NeurIPS 2026 | Workshop | 2026-12-11<br>or 2026-12-12 | Sydney, Australia | [Official call](https://ptaworkshop.github.io/) |
 | 2026-08-31 | Unifying Representations for Robot Application Development | AAAI 2026 Fall Symposium Series | Symposium | 2026-11-05<br>to 2026-11-07 | Arlington, USA | [Official call](https://ur-rad.github.io/) |
@@ -99,7 +86,6 @@ _Only calls that expired within the previous 31 days are retained._
 | 2026-09-04<br>AoE | When Muscles Think: The Embodied Intelligence of Biological and Robotic Actuation | IROS 2026 | Workshop | 2026-09-27 | Pittsburgh, USA | [Official call](https://sites.google.com/ucsd.edu/iros26-ws) |
 | 2026-09-05 | Foundation Models for the Brain and Body | NeurIPS 2026 | Workshop | 2026-12-11<br>or 2026-12-12 | Sydney, Australia | [Official call](https://brainbodyfm-workshop.github.io/) |
 | 2026-09-05<br>AoE | World Models in Physical AI | NeurIPS 2026 | Workshop | 2026-12-12<br>or 2026-12-13 | Sydney, Australia | [Official call](https://www.worldmodels-physicalai.com/) |
-| 2026-09-05 | Social Robot Navigation: From Humans, to Robots, and to the World | IROS 2026 | Workshop | 2026-09-27 | Pittsburgh, USA | [Official call](https://socialnav2026.pages.dev/contribution/) |
 | 2026-09-06 | Soft Robotics in Unstructured Environments: From the Human Body to the Deep Sea | IROS 2026 | Extended abstract | 2026-09-27 | Pittsburgh, USA | [Official call](https://sites.google.com/wisc.edu/soroiros26) |
 | 2026-09-07<br>AoE | Reproducible Benchmarking of Robotic Grasping and Manipulation | IROS 2026 | Workshop | 2026-10-01 | Pittsburgh, USA | [Official call](https://sites.google.com/view/rgmcw2026) |
 | 2026-09-07 | Touch-to-Action: Enhancing Robot Manipulation through Tactile Perception | IROS 2026 | Workshop | 2026-10-01 | Pittsburgh, USA | [Official call](https://iros-touch2action.github.io/) |
@@ -109,6 +95,12 @@ _Only calls that expired within the previous 31 days are retained._
 | 2026-09-10<br>AoE | Real-Time Conversational Agents: Toward Natural Multimodal Interaction | NeurIPS 2026 | Workshop | 2026-12-11<br>or 2026-12-12 | Sydney, Australia | [Official call](https://rtcaneurips26.github.io/) |
 | 2026-09-10<br>AoE | RoboPAD: Post-Training Adaptation of Robot Foundation Models | NeurIPS 2026 | Workshop | 2026-12-12<br>to 2026-12-13 | Paris, France | [Official call](https://robotpad2026.github.io/) |
 | 2026-09-11 | European Conference on Robotics | ECoR 2026 | Conference | 2026-12-14<br>to 2026-12-16 | Oxford, UK | [Official call](https://ecor.cc/) |
+| 2026-09-14<br>AoE | NEmo: Neuro-Symbolic Embodied Intelligence | NeurIPS 2026 | Workshop | 2026-12-12 | Sydney, Australia | [Official call](https://nemo.semantic.review/) |
+| 2026-09-15<br>AoE | IEEE International Conference on Robotics and Automation | ICRA 2027 | Conference | 2027-05-24<br>to 2027-05-28 | Seoul, South Korea | [Official call](https://2027.ieee-icra.org/contribute/) |
+| 2026-09-15 | Social Robot Navigation: From Humans, to Robots, and to the World | IROS 2026 | Workshop | 2026-09-27 | Pittsburgh, USA | [Official call](https://socialnav2026.pages.dev/contribution/) |
+| 2026-09-15<br>AoE | Insect-scale Autonomy | IROS 2026 | Workshop | 2026-10-01 | Pittsburgh, USA | [Official call](https://insect-autonomy.github.io/) |
+| 2026-09-18<br>AoE | ACM/IEEE International Conference on Human-Robot Interaction | HRI 2027 | Conference | 2027-03-08<br>to 2027-03-12 | Santa Clara, USA | [Official call](https://humanrobotinteraction.org/2027/full-papers/) |
+| 2026-09-18 | Do Robots Need World Models? Grounding, Evaluation, and Control for Robotics World Models | CoRL 2026 | Workshop | 2026-11-12 | Austin, USA | [Official call](https://robotics-world-models.github.io/corl2026/) |
 
 ## Recently expired journal special issues
 
@@ -116,5 +108,6 @@ _Only calls that expired within the previous 31 days are retained._
 
 | Deadline | Special issue | Journal | Topics | Link |
 |---|---|---|---|---|
+| 2026-09-19 | Swarm Robotics | npj Robotics | distributed control, multi-agent learning, robot swarms | [Official call](https://www.nature.com/collections/fhhcicdjad) |
 
 <!-- CFP-RADAR:END -->
