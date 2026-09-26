@@ -4,7 +4,13 @@ description: "Research directions in embodied learning, collective robotics and 
 toc: false
 date: 2025-12-14T18:27:00+11:00
 ---
-Our long-term goal is to understand and engineer physical and collective intelligence in robots, so that robust autonomy emerges from the interaction of body, learning, and structure rather than from computational scale alone.
+## Research vision
+
+### Persistent and cumulative embodied intelligence
+
+Our long-term goal is to understand how physical agents accumulate, revise and transfer knowledge across robots, tasks, lifetimes and embodiments. They must be able to keep acting and recover as their bodies, sensors, capabilities and environments change.
+
+We ask when experience remains valid after physical change, when new capabilities make existing representations inadequate, and when an agent must acquire missing knowledge before safe recovery becomes impossible. We study these questions through learning, reasoning, control and real-world experiments.
 
 ## Three connected research themes
 
@@ -38,9 +44,9 @@ Our long-term goal is to understand and engineer physical and collective intelli
 
 ## Data-efficient embodied learning for manipulation
 
-Robots can manipulate objects in controlled settings, but learning robust skills that generalise is still slow and data-hungry. This research direction develops **data-efficient embodied learning for manipulation**, aiming to acquire new skills from limited real-world experience by combining learning with physically grounded models and optimisation.
+Robots can manipulate objects in controlled settings, but learning skills that hold up across different objects and conditions is still slow and data-hungry. We combine learning with physically grounded models and optimisation to help robots acquire manipulation skills from limited real-world experience.
 
-A central theme is **uncertainty-aware learning and transfer**. The aim is to build pipelines that represent what the robot does not know, then use that uncertainty to decide what can be learned in simulation, what must be learned in the real world, and how to adapt safely during execution. This matters most in nonlinear, contact-rich manipulation, where simple approximations can fail.
+We study **uncertainty-aware learning and transfer**: representing what a robot does not know and using that uncertainty to decide what it can learn in simulation, what requires real-world experience, and how to adapt safely during execution. This matters especially in nonlinear, contact-rich manipulation, where simple approximations can fail.
 
 Work in this direction includes:
 - differentiable and model-based learning pipelines for manipulation, including gradient-based trajectory or policy optimisation
@@ -48,7 +54,7 @@ Work in this direction includes:
 - learning from demonstrations and teleoperation to reduce trial-and-error, followed by data-efficient policy refinement
 - dexterous, contact-rich manipulation that tightly integrates perception, control, and learning, with skill representations that support transfer and generalisation
 
-The direction typically combines modern simulation with targeted real-robot experimentation.
+We combine simulation with targeted experiments on real robots.
 
 Related projects: [L1-GT](/projects/l1-gt/) · [Robotic assistance in physical care](/projects/assistive-care/)
 
@@ -56,9 +62,9 @@ Related projects: [L1-GT](/projects/l1-gt/) · [Robotic assistance in physical c
 
 ## Collective robotics under physical uncertainty
 
-Teams of robots are increasingly expected to operate in places where sensing is noisy, dynamics are only partly known, and each robot has a narrow, local view. The core challenge is to achieve reliable coordination without assuming perfect models or continuous, high-bandwidth communication.
+Robot teams must coordinate when sensing is noisy, dynamics are only partly known, and each robot has a limited, local view. We study how to make that coordination reliable without assuming perfect models or continuous, high-bandwidth communication.
 
-This research direction develops **decentralised methods** where each robot maintains an explicit notion of uncertainty and the group uses information intelligently. The emphasis is on treating **information as a limited resource**: deciding what to infer locally, what to share with others, and how to plan and learn so that behaviour remains dependable when real-world conditions differ from simulation.
+We develop **decentralised methods** in which each robot represents its uncertainty and treats **information as a limited resource**. Each robot must decide what to infer locally, what to share with others, and how to plan and learn when real-world conditions differ from simulation.
 
 Key themes include:
 - decentralised belief representations and belief compression for scalable decision-making under partial observability
@@ -66,7 +72,7 @@ Key themes include:
 - uncertainty-aware multi-agent learning with improved credit assignment and stability at scale
 - information-based objectives for exploration and coordination, such as empowerment and value-of-information ideas
 
-The main constraints in this area are well understood, but still not solved in a way that transfers cleanly to physical robot teams.
+Making these methods work reliably on physical robot teams remains an open problem.
 
 Related projects: [muesli-bt](/projects/muesli-bt/) · [L1-GT](/projects/l1-gt/)
 
@@ -74,11 +80,11 @@ Related projects: [muesli-bt](/projects/muesli-bt/) · [L1-GT](/projects/l1-gt/)
 
 ## Learning and uncertainty for physical systems
 
-This research stream investigates how machine learning can support prediction, simulation, and decision-making in complex physical systems, where modelling is often challenged by uncertainty, partial observability, and limited data. We focus on hybrid approaches that combine physics-based models with learning-based components to improve reliability and generalisation.
+We study how machine learning can support prediction, simulation and decision-making in physical systems where data are limited, measurements are uncertain, and parts of the system cannot be observed directly. We combine physics-based models with learned components to improve reliability and generalisation.
 
-Core themes include physics-informed neural networks, neural operators, graph-based surrogates, and differentiable programming. A particular emphasis is placed on uncertainty quantification and probabilistic methods that enable safe deployment in high-stakes applications.
+Methods include physics-informed neural networks, neural operators, graph-based surrogates and differentiable programming. We use uncertainty quantification and probabilistic methods to assess when predictions can be trusted and support safe deployment.
 
-Current work includes modelling and control of composite manufacturing processes (as part of a funded ARC Discovery Project), with broader relevance to robotics, scientific computing, and real-time monitoring. Typical challenges involve learning from sparse or noisy sensor data, reducing simulation costs, and integrating learned models into control or planning pipelines.
+Current work includes modelling and control of composite manufacturing processes as part of a funded ARC Discovery Project. This involves learning from sparse or noisy sensor data, reducing simulation costs, and integrating learned models into control or planning. These methods also have applications in robotics, scientific computing and real-time monitoring.
 
 Related projects: [Smart manufacturing for composite structures](/projects/smart-manufacturing/) · [Five-bar linkage design tools](/projects/fivebar/)
 
