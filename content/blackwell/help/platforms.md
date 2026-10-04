@@ -5,7 +5,9 @@ weight: 20
 draft: false
 ---
 
-Blackwell supports Python 3.11 and newer. Continuous integration exercises Linux/Python 3.11 and macOS/Python 3.13; other JAX-supported combinations may work but are not part of the current validation matrix.
+Blackwell supports Python 3.10 and newer. Continuous integration exercises Linux/Python 3.10, 3.11 and 3.12, and macOS/Python 3.13; other JAX-supported combinations may work but are not part of the current validation matrix.
+
+The dependency remains `jax>=0.6`. Python 3.10 selects JAX 0.6.2, while newer Python versions can use newer compatible JAX releases. The development lockfile records these separate resolutions. Release verification installs the built wheel in clean Python 3.10–3.13 environments before publication.
 
 ## CPU
 

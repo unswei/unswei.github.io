@@ -34,4 +34,4 @@ from blackwell.spaces import se2
 
 Only modules documented here are supported public API. Names under `blackwell._experiments` and `blackwell.filters._protocols` are private.
 
-The reference includes the public API released in **0.0.2**. For implementation details and the most recent source docstrings, follow each page's source links.
+The reference includes the public API released in **0.0.3**. For implementation details and the most recent source docstrings, follow each page's source links.

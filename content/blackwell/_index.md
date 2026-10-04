@@ -2,7 +2,7 @@
 title: "Blackwell"
 description: "JAX-native probabilistic robotics: manifold-aware Gaussian and particle state estimation, simulation and consistency metrics."
 date: 2026-08-27T00:00:00+10:00
-lastmod: 2026-09-20T00:00:00+10:00
+lastmod: 2026-10-04T12:00:00+11:00
 weight: 1
 draft: false
 showChildren: false
@@ -26,9 +26,9 @@ Blackwell is a compact probabilistic-robotics library for manifold-aware Gaussia
   <div class="blackwell-docs-fact"><strong>Evaluation built in</strong><small>Simulation, RMSE and NEES are public APIs.</small></div>
 </div>
 
-Version **0.0.2** adds SE(3) transforms and correlated uncertainty propagation.
+Version **0.0.3** adds Python 3.10 support alongside SE(3) transforms and correlated uncertainty propagation.
 Read the [SE(3) example](/blackwell/examples/se3-uncertainty/) or the
-[release notes](https://github.com/unswei/blackwell/releases/tag/v0.0.2).
+[release notes](https://github.com/unswei/blackwell/releases/tag/v0.0.3).
 
 ## What can I do with it today?
 
