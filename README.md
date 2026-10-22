@@ -51,6 +51,9 @@ appropriate heading in `content/people/_index.md`. Follow Carl’s card as an
 example and link to `/people/given-family/`. The listing is edited separately;
 creating a profile does not automatically add a card.
 
+Label all HDR students as "HDR student" on the people overview. Use the specific
+degree (such as "PhD student" or "MPhil student") on each individual profile.
+
 ## Local preview and checks
 
 Install Hugo Extended (the deployment currently uses 0.161.1), then initialise
