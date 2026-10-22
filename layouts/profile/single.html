@@ -9,7 +9,7 @@
       <a href="{{ "/people/" | relURL }}"><span aria-hidden="true">←</span> All lab members</a>
     </nav>
 
-    <header class="header member-profile-header{{ with .Params.image }} member-profile-header-with-image{{ end }}">
+    <div class="header member-profile-header{{ with .Params.image }} member-profile-header-with-image{{ end }}">
       {{- with .Params.image -}}
         <img class="member-profile-image" src="{{ . | relURL }}" alt="Portrait of {{ $.Title }}" width="225" height="225" decoding="async">
       {{- end -}}
@@ -25,7 +25,7 @@
           </nav>
         {{- end -}}
       </div>
-    </header>
+    </div>
 
     <div class="content" id="content">
       {{- .Content -}}
