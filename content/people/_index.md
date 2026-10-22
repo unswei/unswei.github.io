@@ -52,10 +52,13 @@ pageClass: "people-page"
   </div>
 </article>
 
-<article class="person-card person-card-text">
+<article class="person-card person-card-text" id="tongzhong-shi">
   <div class="person-card-body">
     <h3>Tongzhong Shi</h3>
     <p class="person-card-role">HDR student</p>
+    <nav class="person-card-links" aria-label="Tongzhong Shi profile links">
+      <a href="/people/tongzhong-shi/">Profile <span aria-hidden="true">→</span></a>
+    </nav>
   </div>
 </article>
 
