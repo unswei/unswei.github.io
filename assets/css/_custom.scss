@@ -610,7 +610,63 @@ main.fi-container:not(.fi-container-home) > .page {
 }
 .clear { clear: both; }
 
-/* People profiles */
+/* Member profile pages share the lab's typography, colours and reading width. */
+.member-profile-back {
+  margin-bottom: var(--eicrl-space-5);
+}
+
+.member-profile-back a,
+.member-profile-links a {
+  color: var(--eicrl-link);
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.member-profile-header-with-image {
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr);
+  align-items: center;
+  gap: var(--eicrl-space-5);
+}
+
+.member-profile-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--eicrl-radius-md);
+}
+
+.member-profile-role {
+  margin: 0 0 var(--eicrl-space-2);
+  color: var(--eicrl-link);
+  font-size: 1.15rem;
+  font-weight: 650;
+}
+
+.member-profile-affiliation {
+  margin: 0;
+  color: var(--eicrl-muted);
+}
+
+.member-profile-links {
+  margin-top: var(--eicrl-space-4);
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 620px) {
+  .member-profile-header-with-image {
+    grid-template-columns: 1fr;
+  }
+
+  .member-profile-image {
+    max-width: 10rem;
+  }
+}
+
+/* People listing */
 .people-page {
   --eicrl-reading: 74ch;
 }

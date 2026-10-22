@@ -1,0 +1,34 @@
+{{- define "title" -}}
+  {{- .Title -}}
+  {{- if .Site.Params.withSiteTitle }} {{ .Site.Params.titleDelimiter }} {{ .Site.Title }}{{- end -}}
+{{- end -}}
+
+{{- define "content" -}}
+  <article class="page single special member-profile">
+    <nav class="member-profile-back" aria-label="Lab members">
+      <a href="{{ "/people/" | relURL }}"><span aria-hidden="true">←</span> All lab members</a>
+    </nav>
+
+    <header class="header member-profile-header{{ with .Params.image }} member-profile-header-with-image{{ end }}">
+      {{- with .Params.image -}}
+        <img class="member-profile-image" src="{{ . | relURL }}" alt="Portrait of {{ $.Title }}" width="225" height="225" decoding="async">
+      {{- end -}}
+      <div>
+        <h1 class="single-title">{{ .Title }}</h1>
+        {{- with .Params.role }}<p class="member-profile-role">{{ . }}</p>{{ end -}}
+        {{- with .Params.affiliation }}<p class="member-profile-affiliation">{{ . }}</p>{{ end -}}
+        {{- with .Params.links -}}
+          <nav class="person-card-links member-profile-links" aria-label="{{ $.Title }} profile links">
+            {{- range . -}}
+              <a href="{{ .url | relURL }}">{{ .label }}</a>
+            {{- end -}}
+          </nav>
+        {{- end -}}
+      </div>
+    </header>
+
+    <div class="content" id="content">
+      {{- .Content -}}
+    </div>
+  </article>
+{{- end -}}

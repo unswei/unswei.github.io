@@ -1,0 +1,15 @@
+{{- define "title" -}}
+  {{- .Title -}}
+  {{- if .Site.Params.withSiteTitle }} {{ .Site.Params.titleDelimiter }} {{ .Site.Title }}{{- end -}}
+{{- end -}}
+
+{{- define "content" -}}
+  <article class="page single special people-page">
+    <div class="header">
+      <h1 class="single-title">{{ .Title }}</h1>
+    </div>
+    <div class="content" id="content">
+      {{- .Content -}}
+    </div>
+  </article>
+{{- end -}}
