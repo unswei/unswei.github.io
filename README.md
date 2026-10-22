@@ -47,12 +47,14 @@ Profiles use `layouts/profile/single.html` and share their styling in
 `assets/css/_custom.scss`.
 
 Fill in the profile, set `draft: false` when ready, and add a card under the
-appropriate heading in `content/people/_index.md`. Follow Carl’s card as an
-example and link to `/people/given-family/`. The listing is edited separately;
+appropriate heading’s `people-grid` in `content/people/_index.md`. Follow Carl’s
+card as an example: keep the name as plain text and add a separate Profile link
+to `/people/given-family/`. The listing is edited separately;
 creating a profile does not automatically add a card.
 
 Label all HDR students as "HDR student" on the people overview. Use the specific
 degree (such as "PhD student" or "MPhil student") on each individual profile.
+The role label is sufficient for student cards; omit a repeated generic summary.
 
 ## Local preview and checks
 

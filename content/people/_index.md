@@ -8,6 +8,8 @@ pageClass: "people-page"
 
 ## Academics
 
+<div class="people-grid">
+
 <article class="person-card person-card-featured" id="oliver-obst">
   <img class="person-card-image" src="/images/oliver.jpeg" alt="A/Prof Oliver Obst" width="225" height="225" loading="lazy" decoding="async">
   <div class="person-card-body">
@@ -24,13 +26,16 @@ pageClass: "people-page"
   </div>
 </article>
 
+</div>
+
 ## HDR Research students
+
+<div class="people-grid">
 
 <article class="person-card person-card-text" id="anthony-anastopoulos">
   <div class="person-card-body">
-    <h3><a href="/people/anthony-anastopoulos/">Anthony Anastopoulos</a></h3>
+    <h3>Anthony Anastopoulos</h3>
     <p class="person-card-role">HDR student</p>
-    <p class="person-card-summary">HDR research student in EICRL.</p>
     <nav class="person-card-links" aria-label="Anthony Anastopoulos profile links">
       <a href="/people/anthony-anastopoulos/">Profile <span aria-hidden="true">→</span></a>
     </nav>
@@ -39,9 +44,8 @@ pageClass: "people-page"
 
 <article class="person-card person-card-text" id="carl-cai">
   <div class="person-card-body">
-    <h3><a href="/people/carl-cai/">Carl Cai</a></h3>
+    <h3>Carl Cai</h3>
     <p class="person-card-role">HDR student</p>
-    <p class="person-card-summary">HDR research student in EICRL.</p>
     <nav class="person-card-links" aria-label="Carl Cai profile links">
       <a href="/people/carl-cai/">Profile <span aria-hidden="true">→</span></a>
     </nav>
@@ -52,11 +56,14 @@ pageClass: "people-page"
   <div class="person-card-body">
     <h3>Tongzhong Shi</h3>
     <p class="person-card-role">HDR student</p>
-    <p class="person-card-summary">HDR research student in EICRL.</p>
   </div>
 </article>
 
+</div>
+
 ## Visiting fellows
+
+<div class="people-grid">
 
 <article class="person-card" id="frieder-stolzenburg">
   <img class="person-card-image" src="/images/frieder.jpeg" alt="Prof Frieder Stolzenburg" width="225" height="225" loading="lazy" decoding="async">
@@ -71,3 +78,5 @@ pageClass: "people-page"
     </nav>
   </div>
 </article>
+
+</div>

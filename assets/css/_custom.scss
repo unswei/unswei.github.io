@@ -671,6 +671,16 @@ main.fi-container:not(.fi-container-home) > .page {
   --eicrl-reading: 74ch;
 }
 
+.page.single.people-page > .content {
+  max-width: none;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: var(--eicrl-space-4);
+}
+
 .person-card {
   display: grid;
   grid-template-columns: 12rem minmax(0, 1fr);
@@ -693,7 +703,7 @@ main.fi-container:not(.fi-container-home) > .page {
 
 .people-page .content .person-card h3 {
   margin: 0 0 0.25rem;
-  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  font-size: 1.25rem;
 }
 
 .people-page .content .person-card-role {
@@ -739,7 +749,23 @@ main.fi-container:not(.fi-container-home) > .page {
   padding-left: var(--eicrl-space-4);
 }
 
+.person-card-text .person-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.person-card-text .person-card-links {
+  margin-top: auto;
+  padding-top: var(--eicrl-space-3);
+}
+
 @media (max-width: 620px) {
+  .people-grid {
+    grid-template-columns: 1fr;
+  }
+
   .person-card {
     grid-template-columns: 1fr;
   }
