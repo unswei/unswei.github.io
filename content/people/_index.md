@@ -26,6 +26,17 @@ pageClass: "people-page"
 
 ## HDR Research students
 
+<article class="person-card person-card-text" id="anthony-anastopoulos">
+  <div class="person-card-body">
+    <h3><a href="/people/anthony-anastopoulos/">Anthony Anastopoulos</a></h3>
+    <p class="person-card-role">HDR student</p>
+    <p class="person-card-summary">HDR research student in EICRL.</p>
+    <nav class="person-card-links" aria-label="Anthony Anastopoulos profile links">
+      <a href="/people/anthony-anastopoulos/">Profile <span aria-hidden="true">→</span></a>
+    </nav>
+  </div>
+</article>
+
 <article class="person-card person-card-text" id="carl-cai">
   <div class="person-card-body">
     <h3><a href="/people/carl-cai/">Carl Cai</a></h3>
