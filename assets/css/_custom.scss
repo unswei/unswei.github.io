@@ -761,6 +761,17 @@ main.fi-container:not(.fi-container-home) > .page {
   padding-top: var(--eicrl-space-3);
 }
 
+.person-card-text.person-card-with-portrait {
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: var(--eicrl-space-3);
+}
+
+.person-card-with-portrait .person-card-image {
+  width: 5rem;
+  height: 5rem;
+  max-width: none;
+}
+
 @media (max-width: 620px) {
   .people-grid {
     grid-template-columns: 1fr;

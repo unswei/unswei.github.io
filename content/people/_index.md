@@ -52,7 +52,8 @@ pageClass: "people-page"
   </div>
 </article>
 
-<article class="person-card person-card-text" id="tongzhong-shi">
+<article class="person-card person-card-text person-card-with-portrait" id="tongzhong-shi">
+  <img class="person-card-image" src="/images/people/tongzhong-shi.jpg" alt="Portrait of Tongzhong Shi" width="80" height="80" loading="lazy" decoding="async">
   <div class="person-card-body">
     <h3>Tongzhong Shi</h3>
     <p class="person-card-role">HDR student</p>

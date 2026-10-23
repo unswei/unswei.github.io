@@ -4,7 +4,7 @@ description: "Tongzhong Shi, MPhil student in EICRL at UNSW Sydney."
 type: "profile"
 role: "MPhil student"
 affiliation: "Embodied Intelligence & Collective Robotics Lab · UNSW Sydney"
-image: ""
+image: "/images/people/tongzhong-shi.jpg"
 links: []
 toc: false
 ---
