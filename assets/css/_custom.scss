@@ -669,6 +669,7 @@ main.fi-container:not(.fi-container-home) > .page {
 /* People listing */
 .people-page {
   --eicrl-reading: 74ch;
+  --people-portrait-size: 7rem;
 }
 
 .page.single.people-page > .content {
@@ -683,15 +684,17 @@ main.fi-container:not(.fi-container-home) > .page {
 
 .person-card {
   display: grid;
-  grid-template-columns: 12rem minmax(0, 1fr);
+  grid-template-columns: var(--people-portrait-size) minmax(0, 1fr);
   gap: var(--eicrl-space-4);
   align-items: center;
   border-top: 1px solid var(--eicrl-border);
   padding: var(--eicrl-space-4) 0;
 }
 
-.person-card-image {
-  width: 100%;
+.people-page .content img.person-card-image {
+  width: var(--people-portrait-size);
+  height: var(--people-portrait-size);
+  max-width: none;
   aspect-ratio: 1;
   border-radius: var(--eicrl-radius-md);
   object-fit: cover;
@@ -762,14 +765,8 @@ main.fi-container:not(.fi-container-home) > .page {
 }
 
 .person-card-text.person-card-with-portrait {
-  grid-template-columns: 5rem minmax(0, 1fr);
+  grid-template-columns: var(--people-portrait-size) minmax(0, 1fr);
   gap: var(--eicrl-space-3);
-}
-
-.person-card-with-portrait .person-card-image {
-  width: 5rem;
-  height: 5rem;
-  max-width: none;
 }
 
 @media (max-width: 620px) {
@@ -779,11 +776,6 @@ main.fi-container:not(.fi-container-home) > .page {
 
   .person-card {
     grid-template-columns: 1fr;
-  }
-
-  .person-card-image {
-    width: 55vw;
-    max-width: 11rem;
   }
 
   .person-card-links {

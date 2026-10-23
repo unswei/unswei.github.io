@@ -11,7 +11,7 @@ pageClass: "people-page"
 <div class="people-grid">
 
 <article class="person-card person-card-featured" id="oliver-obst">
-  <img class="person-card-image" src="/images/oliver.jpeg" alt="A/Prof Oliver Obst" width="225" height="225" loading="lazy" decoding="async">
+  <img class="person-card-image" src="/images/oliver.jpeg" alt="A/Prof Oliver Obst" width="112" height="112" loading="lazy" decoding="async">
   <div class="person-card-body">
     <h3>Oliver Obst</h3>
     <p class="person-card-role">Associate Professor · EICRL lead</p>
@@ -28,7 +28,7 @@ pageClass: "people-page"
 
 </div>
 
-## HDR Research students
+## Student researchers
 
 <div class="people-grid">
 
@@ -52,8 +52,19 @@ pageClass: "people-page"
   </div>
 </article>
 
+<article class="person-card person-card-text person-card-with-portrait" id="f-olivia-fan">
+  <img class="person-card-image" src="/images/people/f-olivia-fan.jpg" alt="Portrait of F. Olivia Fan" width="112" height="112" loading="lazy" decoding="async">
+  <div class="person-card-body">
+    <h3>F. Olivia Fan</h3>
+    <p class="person-card-role">Student researcher</p>
+    <nav class="person-card-links" aria-label="F. Olivia Fan profile links">
+      <a href="/people/f-olivia-fan/">Profile <span aria-hidden="true">→</span></a>
+    </nav>
+  </div>
+</article>
+
 <article class="person-card person-card-text person-card-with-portrait" id="tongzhong-shi">
-  <img class="person-card-image" src="/images/people/tongzhong-shi.jpg" alt="Portrait of Tongzhong Shi" width="80" height="80" loading="lazy" decoding="async">
+  <img class="person-card-image" src="/images/people/tongzhong-shi.jpg" alt="Portrait of Tongzhong Shi" width="112" height="112" loading="lazy" decoding="async">
   <div class="person-card-body">
     <h3>Tongzhong Shi</h3>
     <p class="person-card-role">HDR student</p>
@@ -70,7 +81,7 @@ pageClass: "people-page"
 <div class="people-grid">
 
 <article class="person-card" id="frieder-stolzenburg">
-  <img class="person-card-image" src="/images/frieder.jpeg" alt="Prof Frieder Stolzenburg" width="225" height="225" loading="lazy" decoding="async">
+  <img class="person-card-image" src="/images/frieder.jpeg" alt="Prof Frieder Stolzenburg" width="112" height="112" loading="lazy" decoding="async">
   <div class="person-card-body">
     <h3>Frieder Stolzenburg</h3>
     <p class="person-card-role">Senior Visiting Fellow</p>

@@ -52,9 +52,16 @@ card as an example: keep the name as plain text and add a separate Profile link
 to `/people/given-family/`. The listing is edited separately;
 creating a profile does not automatically add a card.
 
-Label all HDR students as "HDR student" on the people overview. Use the specific
-degree (such as "PhD student" or "MPhil student") on each individual profile.
+Use the shared "Student researchers" group for HDR, undergraduate, coursework
+and other student researchers, including graduates. Label HDR students as
+"HDR student" on the people overview. Use the specific degree (such as
+"PhD student" or "MPhil student") on each individual profile.
 The role label is sufficient for student cards; omit a repeated generic summary.
+
+All overview portraits use the same 112 × 112 pixel display size. For a student
+card with a photo, follow Olivia’s or Tongzhong’s `person-card-with-portrait`
+example. A square JPEG around 400 × 400 pixels is sufficient for both the
+overview and individual profile.
 
 ## Local preview and checks
 

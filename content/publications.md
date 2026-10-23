@@ -11,6 +11,10 @@ Selected EICRL publications and current working outputs are grouped by year belo
 
 ## 2026
 
+- Obst, O., Stolzenburg, F. (2026). *In CEM, a World Model Is Also a Proposal Mechanism.* **Preprint.** [arXiv:2610.00921](https://arxiv.org/abs/2610.00921)
+
+- Fan, F. O., Obst, O. (2026). *Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey.* **Preprint.** [arXiv:2609.39151](https://arxiv.org/abs/2609.39151)
+
 - Purja Pun, S., Obst, O., Basilakis, J., Ginige, J. A. (2026). *On embedding-based automatic mapping of clinical classification system: handling linguistic variations and granular inconsistencies.* **Journal of the American Medical Informatics Association**, 33(4), pp. 792–801. DOI: [10.1093/jamia/ocag004](https://doi.org/10.1093/jamia/ocag004)
 
 - Jagarlamudi, K. S., Tague, R., Desmond, J., Lau, C. W., Wu, H., Ginige, A., Obst, O. (2026). *Edge-Based Perception-Driven Robotic System for Assistive Patient Care.* Accepted at **CCGRID 2026**, the 26th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing. [Project](/projects/assistive-care/) · [News](/news/robotics-in-care-poster/)
