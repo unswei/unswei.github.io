@@ -3,6 +3,16 @@
 This site uses Hugo Extended and the FixIt theme. GitHub Pages deploys changes
 automatically when they are pushed or merged into `main`.
 
+## Contributing changes
+
+Create a branch and open a pull request targeting `main`. Changes require
+approval from `@OliverObst`, the code owner for the repository. New changes
+invalidate earlier approvals. Force pushes and deletion of `main` are blocked.
+
+Oliver’s account has an explicit bypass for exceptional direct updates.
+Agents using that account must still obtain explicit authorisation for the
+specific direct push or review bypass; see `AGENTS.md`.
+
 ## Editing a member profile
 
 Carl’s profile is in `content/people/carl-cai.md` and appears at
