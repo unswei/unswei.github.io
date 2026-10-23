@@ -9,9 +9,9 @@ Create a branch and open a pull request targeting `main`. Changes require
 approval from `@OliverObst`, the code owner for the repository. New changes
 invalidate earlier approvals. Force pushes and deletion of `main` are blocked.
 
-Oliver’s account has an explicit bypass for exceptional direct updates.
-Agents using that account must still obtain explicit authorisation for the
-specific direct push or review bypass; see `AGENTS.md`.
+Oliver’s account has an explicit bypass for direct updates, including requested
+changes made through Codex in this or future sessions. Other collaborators must
+use pull requests approved by Oliver; see `AGENTS.md`.
 
 ## Editing a member profile
 

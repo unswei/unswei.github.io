@@ -2,10 +2,10 @@
 
 - Use Australian/British English.
 - Do not prefix branch names with `Codex` or `codex/`.
-- Submit changes to `main` through a pull request. Direct pushes to `main`
-  require the user's explicit authorisation for the changes being published.
-- Do not use the owner's bypass to skip required pull request reviews unless
-  the user explicitly authorises that exception for the specific changes.
+- `OliverObst` may push requested changes directly to `main`, including through
+  Codex in this and future sessions. This is standing authorisation: do not
+  request a separate PR or approval for routine changes requested by Oliver.
+- Other collaborators must use pull requests approved by `OliverObst`.
 - Do not submit approving reviews as `OliverObst` unless the user explicitly
   asks you to approve that particular pull request.
 - Do not weaken or disable repository protections unless the user explicitly
