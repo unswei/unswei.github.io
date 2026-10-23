@@ -4,7 +4,7 @@ description: "Anthony Anastopoulos, MPhil student in EICRL at UNSW Sydney."
 type: "profile"
 role: "MPhil student"
 affiliation: "Embodied Intelligence & Collective Robotics Lab · UNSW Sydney"
-image: ""
+image: "/images/people/anthony-anastopoulos.jpg"
 links: []
 toc: false
 ---

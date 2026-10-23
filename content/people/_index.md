@@ -32,7 +32,8 @@ pageClass: "people-page"
 
 <div class="people-grid">
 
-<article class="person-card person-card-text" id="anthony-anastopoulos">
+<article class="person-card person-card-text person-card-with-portrait" id="anthony-anastopoulos">
+  <img class="person-card-image" src="/images/people/anthony-anastopoulos.jpg" alt="Portrait of Anthony Anastopoulos" width="112" height="112" loading="lazy" decoding="async">
   <div class="person-card-body">
     <h3>Anthony Anastopoulos</h3>
     <p class="person-card-role">HDR student</p>
