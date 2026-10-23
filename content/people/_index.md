@@ -63,6 +63,17 @@ pageClass: "people-page"
   </div>
 </article>
 
+<article class="person-card person-card-text person-card-with-portrait" id="peter-pham">
+  <img class="person-card-image" src="/images/people/peter-pham.jpg" alt="Portrait of Peter Pham" width="112" height="112" loading="lazy" decoding="async">
+  <div class="person-card-body">
+    <h3>Peter Pham</h3>
+    <p class="person-card-role">Student researcher</p>
+    <nav class="person-card-links" aria-label="Peter Pham profile links">
+      <a href="/people/peter-pham/">Profile <span aria-hidden="true">→</span></a>
+    </nav>
+  </div>
+</article>
+
 <article class="person-card person-card-text person-card-with-portrait" id="tongzhong-shi">
   <img class="person-card-image" src="/images/people/tongzhong-shi.jpg" alt="Portrait of Tongzhong Shi" width="112" height="112" loading="lazy" decoding="async">
   <div class="person-card-body">

@@ -746,27 +746,29 @@ main.fi-container:not(.fi-container-home) > .page {
   white-space: nowrap;
 }
 
-.person-card-text {
-  grid-template-columns: 1fr;
+.person-card.person-card-text {
+  grid-template-columns: var(--people-portrait-size) minmax(0, 1fr);
+  gap: var(--eicrl-space-3);
   border-left: 3px solid var(--eicrl-accent);
   padding-left: var(--eicrl-space-4);
 }
 
 .person-card-text .person-card-body {
+  grid-column: 2;
+  min-height: var(--people-portrait-size);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   height: 100%;
 }
 
+.people-page .content .person-card-text h3 {
+  min-height: 2.4em;
+}
+
 .person-card-text .person-card-links {
   margin-top: auto;
   padding-top: var(--eicrl-space-3);
-}
-
-.person-card-text.person-card-with-portrait {
-  grid-template-columns: var(--people-portrait-size) minmax(0, 1fr);
-  gap: var(--eicrl-space-3);
 }
 
 @media (max-width: 620px) {

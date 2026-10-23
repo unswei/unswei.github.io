@@ -62,6 +62,9 @@ All overview portraits use the same 112 × 112 pixel display size. For a student
 card with a photo, follow Olivia’s or Tongzhong’s `person-card-with-portrait`
 example. A square JPEG around 400 × 400 pixels is sufficient for both the
 overview and individual profile.
+Every student card reserves the same portrait column, even without a photo,
+so names and Profile links stay aligned. Omit the image element until a portrait
+is available; keep the `person-card-body` containing the name, role and links.
 
 ## Local preview and checks
 
