@@ -75,6 +75,17 @@ pageClass: "people-page"
   </div>
 </article>
 
+<article class="person-card person-card-text person-card-with-portrait" id="sherry-jiang">
+  <img class="person-card-image" src="/images/people/sherry-jiang.jpg" alt="Portrait of Sherry Jiang" width="112" height="112" loading="lazy" decoding="async">
+  <div class="person-card-body">
+    <h3>Sherry Jiang</h3>
+    <p class="person-card-role">Student researcher</p>
+    <nav class="person-card-links" aria-label="Sherry Jiang profile links">
+      <a href="/people/sherry-jiang/">Profile <span aria-hidden="true">→</span></a>
+    </nav>
+  </div>
+</article>
+
 <article class="person-card person-card-text person-card-with-portrait" id="tongzhong-shi">
   <img class="person-card-image" src="/images/people/tongzhong-shi.jpg" alt="Portrait of Tongzhong Shi" width="112" height="112" loading="lazy" decoding="async">
   <div class="person-card-body">
