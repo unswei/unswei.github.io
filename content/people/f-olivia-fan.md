@@ -13,7 +13,7 @@ F. Olivia Fan is a coursework master’s graduate who has undertaken research wi
 
 ## Selected publications
 
-- Fan, F. O., Obst, O. (2026). *Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey.* **Preprint.** [arXiv:2609.39151](https://arxiv.org/abs/2609.39151)
+- Fan, F. O., Obst, O. (2026). *Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey.* Accepted at **ACRA 2026**, the Australasian Conference on Robotics and Automation. [arXiv:2609.39151](https://arxiv.org/abs/2609.39151)
 
 <!--
 Olivia: edit this file to introduce your research. See README.md for instructions.

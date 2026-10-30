@@ -11,9 +11,11 @@ Selected EICRL publications and current working outputs are grouped by year belo
 
 ## 2026
 
+- Jiang, S., Obst, O. (2026). *Minimum Sufficient Communication for Independent Behaviour Tree Robot Teams.* Accepted at **ACRA 2026**, the Australasian Conference on Robotics and Automation. [arXiv:2610.38176](https://arxiv.org/abs/2610.38176)
+
 - Obst, O., Stolzenburg, F. (2026). *In CEM, a World Model Is Also a Proposal Mechanism.* **Preprint.** [arXiv:2610.00921](https://arxiv.org/abs/2610.00921)
 
-- Fan, F. O., Obst, O. (2026). *Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey.* **Preprint.** [arXiv:2609.39151](https://arxiv.org/abs/2609.39151)
+- Fan, F. O., Obst, O. (2026). *Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey.* Accepted at **ACRA 2026**, the Australasian Conference on Robotics and Automation. [arXiv:2609.39151](https://arxiv.org/abs/2609.39151)
 
 - Purja Pun, S., Obst, O., Basilakis, J., Ginige, J. A. (2026). *On embedding-based automatic mapping of clinical classification system: handling linguistic variations and granular inconsistencies.* **Journal of the American Medical Informatics Association**, 33(4), pp. 792–801. DOI: [10.1093/jamia/ocag004](https://doi.org/10.1093/jamia/ocag004)
 
