@@ -80,12 +80,14 @@ _Only calls that expired within the previous 31 days are retained._
 | 2026-10-07 | Learning Effective Abstractions for Planning | CoRL 2026 | Workshop | 2026-11-12 | Austin, USA | [Official call](https://leap-workshop.github.io/) |
 | 2026-10-08<br>AoE | International Conference on Autonomous Agents and Multiagent Systems | AAMAS 2027 | Conference | 2027-05-03<br>to 2027-05-07 | Hanoi, Vietnam | [Official call](https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/) |
 | 2026-10-09<br>AoE | Human-Centered Robot Learning and Interaction | CoRL 2026 | Workshop | 2026-11-12 | Austin, USA | [Official call](https://hc-robot-learning.github.io/) |
+| 2026-10-09<br>AoE | ICLR 2027 workshop proposals | ICLR 2027 | Workshop proposal | 2027-04-29<br>to 2027-04-30 | San Francisco, USA | [Official call](https://iclr.cc/Conferences/2027/CallForWorkshops) |
 | 2026-10-10<br>AoE | HRI 2027 industry white papers | HRI 2027 | Special track | 2027-03-08<br>to 2027-03-12 | Santa Clara, USA | [Official call](https://humanrobotinteraction.org/2027/submissions/) |
 | 2026-10-12 | Do Robots Need World Models? Grounding, Evaluation, and Control for Robotics World Models | CoRL 2026 | Workshop | 2026-11-12 | Austin, USA | [Official call](https://do-robots-need-world-models.github.io/) |
 | 2026-10-16<br>EST | Intelligent Robotics and Multi-Agent Systems | SAC 2027 | Special track | 2027-04-05<br>to 2027-04-09 | Gwangju, South Korea | [Official call](https://www.sigapp.org/sac/sac2027/) |
 | 2026-10-18<br>AoE | Asian Conference on Machine Learning encore track | ACML 2026 | Special track | 2026-12-01<br>to 2026-12-04 | TBC | [Official call](https://www.acml-conf.org/2026/calls/papers/) |
 | 2026-10-22 | IEEE Symposium on Safety, Security, and Rescue Robotics late-breaking results | SSRR 2026 | Extended abstract | 2026-11-02<br>to 2026-11-04 | Incheon, South Korea | [Official call](https://www.ssrr-ieee.org/) |
 | 2026-10-26 | ECoR 2026 late-breaking results | ECoR 2026 | Extended abstract | 2026-12-14<br>to 2026-12-16 | Oxford, UK | [Official call](https://ecor.cc/) |
+| 2026-10-26<br>AoE | CoRL 2026 late-breaking results | CoRL 2026 | Extended abstract | 2026-11-09<br>to 2026-11-10 | Austin, USA | [Official call](https://www.corl.org/contributions/call-for-late-breaking-results) |
 | 2026-10-29<br>AoE | AAMAS 2027 workshop proposals | AAMAS 2027 | Workshop proposal | 2027-05-03<br>to 2027-05-04 | Hanoi, Vietnam | [Official call](https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-workshops/) |
 | 2026-10-31<br>23:59 Pacific | RoboSoft 2027 main conference | RoboSoft 2027 | Conference | 2027-04-05<br>to 2027-04-09 | Brisbane, Australia | [Official call](https://robosoft27.com/call-for-papers/) |
 | 2026-11-01<br>PST | ICRA 2027 invited full workshop and tutorial proposals | ICRA 2027 | Workshop proposal | 2027-05-24<br>or 2027-05-28 | Seoul, South Korea | [Official call](https://2027.ieee-icra.org/contribute/) |
