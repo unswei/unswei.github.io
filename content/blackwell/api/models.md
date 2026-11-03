@@ -42,6 +42,52 @@ measurement_residual(measurement, expected, model) -> Array
 
 The Jacobians and covariances are the stored constant matrices; the residual is `measurement - expected`.
 
+## Reusable linear predictions
+
+Added in 0.0.4 in `blackwell.models.linear`:
+
+```python
+class PredictionResponse(NamedTuple):
+    state_response: Array    # (H, p, n)
+    command_response: Array  # (H, p, H, m)
+    offset: Array            # (H, p)
+
+prepare_prediction(
+    model: LinearDynamics,
+    horizon: int,
+    *,
+    output_matrix: Array | None = None,
+    state_offset: Array | None = None,
+    output_offset: Array | None = None,
+) -> PredictionResponse
+
+predict_sequence(
+    response: PredictionResponse,
+    initial_state: Array,
+    controls: Array,
+) -> Array
+```
+
+Preparation uses `A=model.transition`, `B=model.control`, optional `C` of shape
+`(p, n)`, state offset `a` of shape `(n,)` and output offset `d` of shape `(p,)`.
+It represents `x_next = A @ x + B @ u + a`, `y_next = C @ x_next + d`.
+Defaults are identity `C` and zero offsets. Process covariance is unused;
+these are conditional means, with no covariance or measurement update.
+
+The positive integer horizon `H` is static under JIT. Prediction accepts one
+`(n,)` initial state and one `(H, m)` input sequence, returning `(H, p)` outputs
+after each input. The initial output is excluded. Both functions validate array
+shapes at their public boundary.
+
+`state_response` and `command_response` are exact state/input Jacobians. The
+command response is causal: `[t, :, j, :]` is zero for `j > t`. Storage is
+`O(H² p m)`; rebuild when matrices, offsets or horizon change. For parameter
+derivatives, prepare inside the differentiated function. Use explicit `jit` and
+`vmap` for compilation and batches.
+
+See [Reuse linear predictions](/blackwell/guides/linear-prediction/) for a runnable
+example, affine timing conventions, benchmark measurements and the scan trade-off.
+
 ## SE(2) body motion
 
 Module: `blackwell.models.se2`

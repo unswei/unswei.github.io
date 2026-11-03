@@ -61,6 +61,15 @@ One trajectory is useful for debugging, not statistical validation. For a meanin
 3. compute NEES at each time and across trials; and
 4. compare against chi-squared confidence bounds for the sample count and tangent dimension.
 
+## Evaluate decisions alongside prediction accuracy
+
+Use the same initial states, tasks and candidate banks to check whether model
+errors change selections, constraints or completion forecasts. The
+[decision-relevant evaluation guide](/blackwell/guides/decision-relevant-evaluation/)
+introduces finite-bank selection regret and observed binary decision counts,
+then checks completion windows and paired open-loop executions in a planar
+example. Cost, constraint and completion availability have separate masks.
+
 ## Move from simulation to sensors
 
 Keep estimator code unchanged and replace only the source of controls and measurements. Confirm:

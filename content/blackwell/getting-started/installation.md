@@ -2,7 +2,7 @@
 title: "Installation"
 description: "Install Blackwell from PyPI and choose the correct JAX platform package."
 weight: 10
-lastmod: 2026-10-04T12:00:00+11:00
+lastmod: 2026-11-03
 draft: false
 ---
 
@@ -26,7 +26,10 @@ Verify the installation:
 python -c "import blackwell; print(blackwell.__version__)"
 ```
 
-The current release reports version `0.0.3`, which adds Python 3.10 support to the SE(3) API introduced in `0.0.2`. Upgrade an existing installation with `python -m pip install --upgrade blackwell`. Blackwell remains pre-alpha: the supported surface is deliberately small, and API changes are possible before version 1.0.
+The current release reports version `0.0.4`, adding reusable linear predictions
+and decision-relevant evaluation alongside the SE(3) API and Python 3.10 support.
+Upgrade with `python -m pip install --upgrade blackwell`. Blackwell remains
+pre-alpha: API changes are possible before version 1.0.
 
 ## Python and JAX versions
 
