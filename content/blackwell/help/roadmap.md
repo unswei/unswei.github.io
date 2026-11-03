@@ -25,6 +25,16 @@ conventions. Covariance propagation, inference and manifold geometry remain
 separate operations. These additions keep runtime dependencies and package-root
 exports unchanged and do not declare the broader v0.1 milestone complete.
 
+### Local validation for 0.0.4
+
+On 3 November 2026, all 183 tests passed on macOS ARM CPU with the development
+environment's Python 3.12.13/JAX 0.11.1. All 183 tests and the four release
+examples also passed against clean installed wheels on Python 3.10.20/JAX 0.6.2
+and Python 3.12.13/JAX 0.6.0. Lint, the strict MkDocs build, wheel/source builds
+and strict distribution metadata checks passed. The updated Hugo manual built
+with no broken local links or anchors. These checks do not establish GPU or
+Jetson validation.
+
 ## Relationship to the plan
 
 The 26 August 2026 *Blackwell v0.1: Minimal Useful Library Specification*
