@@ -2,7 +2,7 @@
 title: "API reference"
 description: "Public Blackwell modules, containers, signatures, shapes and coordinate conventions."
 weight: 50
-lastmod: 2026-09-20T00:00:00+10:00
+lastmod: 2026-11-03
 draft: false
 ---
 
@@ -34,4 +34,8 @@ from blackwell.spaces import se2
 
 Only modules documented here are supported public API. Names under `blackwell._experiments` and `blackwell.filters._protocols` are private.
 
-The reference includes the public API released in **0.0.3**. For implementation details and the most recent source docstrings, follow each page's source links.
+The reference includes the public API released in **0.0.4**, including reusable
+[linear predictions](/blackwell/api/models/#reusable-linear-predictions) and
+[decision metrics](/blackwell/api/simulation-and-metrics/#decision-metrics).
+For implementation details and the most recent source docstrings, follow each
+page's source links.

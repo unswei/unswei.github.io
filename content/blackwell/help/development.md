@@ -2,7 +2,7 @@
 title: "Development and contributing"
 description: "Set up a checkout, run checks and understand Blackwell's supported public surface."
 weight: 30
-lastmod: 2026-10-04T12:00:00+11:00
+lastmod: 2026-11-03
 draft: false
 ---
 
@@ -40,6 +40,7 @@ src/blackwell/
   _experiments/        private regression/reference implementations
 examples/              runnable public-API workflows
 tests/                 numerical and transformation tests
+benchmarks/            explicit compilation and execution measurements
 docs/                  source documentation and local reference build
 ```
 
@@ -61,6 +62,24 @@ The public documentation is published as part of the EICRL Hugo site for a consi
 
 When public behaviour changes, update source docstrings, runnable examples and the corresponding guide or reference page in the lab site.
 
+## Linear prediction benchmark
+
+```console
+uv run python benchmarks/linear_prediction.py --horizon 32 --batch-size 256
+```
+
+This compares prepared matrix products and a batched scan for identical affine
+outputs and objective gradients, separating preparation/compilation from warmed
+execution. See the [prediction guide](/blackwell/guides/linear-prediction/) for
+storage, XLA buffer estimates and preparation break-even counts.
+
 ## Release state
 
-The current public release is `0.0.3`, adding Python 3.10 support to `0.0.2`'s SE(3) geometry and correlated uncertainty propagation. See the [roadmap and release scope](/blackwell/help/roadmap/) for the wider v0.1 plan. Releases use semantic versioning, with API stability expected only from version 1.0 onwards. Each release is built as a wheel and source distribution, verified in clean Python 3.10–3.13 environments, published to PyPI through GitHub Actions Trusted Publishing, and documented in the [changelog](https://github.com/unswei/blackwell/blob/main/CHANGELOG.md).
+The current public release is `0.0.4`, adding reusable linear predictions and
+decision-relevant model evaluation to the existing estimation API. See the
+[roadmap and release scope](/blackwell/help/roadmap/) for the wider v0.1 plan.
+Releases use semantic versioning, with API stability expected only from version
+1.0 onwards. Each release is built as a wheel and source distribution, verified
+in clean Python 3.10–3.13 environments, published to PyPI through GitHub Actions
+Trusted Publishing, and documented in the
+[changelog](https://github.com/unswei/blackwell/blob/main/CHANGELOG.md).

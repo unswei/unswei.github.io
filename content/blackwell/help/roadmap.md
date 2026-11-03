@@ -1,12 +1,39 @@
 ---
 title: "Roadmap and release scope"
-description: "How the 0.0.2 SE(3) release advances the wider Blackwell v0.1 plan."
+description: "How the model-evaluation and earlier SE(3) additions advance the wider Blackwell v0.1 plan."
 weight: 40
-lastmod: 2026-09-20T00:00:00+10:00
+lastmod: 2026-11-03
 draft: false
 aliases:
   - "/blackwell/roadmap/"
 ---
+
+## 0.0.4: model prediction and decision evaluation
+
+Release 0.0.4 adds two focused capabilities to the existing probabilistic
+robotics framework:
+
+- [Reusable linear predictions](/blackwell/guides/linear-prediction/) prepare a
+  finite-horizon affine response from `LinearDynamics`, then apply it to candidate
+  input sequences with exact state/input sensitivities.
+- [Decision-relevant model evaluation](/blackwell/guides/decision-relevant-evaluation/)
+  adds finite-bank regret and observed binary decision counts in `metrics`.
+  A planar example owns its task, completion rules and paired executions.
+
+Both follow the existing pure JAX, immutable PyTree and explicit `jit`/`vmap`
+conventions. Covariance propagation, inference and manifold geometry remain
+separate operations. These additions keep runtime dependencies and package-root
+exports unchanged and do not declare the broader v0.1 milestone complete.
+
+### Local validation for 0.0.4
+
+On 3 November 2026, all 183 tests passed on macOS ARM CPU with the development
+environment's Python 3.12.13/JAX 0.11.1. All 183 tests and the four release
+examples also passed against clean installed wheels on Python 3.10.20/JAX 0.6.2
+and Python 3.12.13/JAX 0.6.0. Lint, the strict MkDocs build, wheel/source builds
+and strict distribution metadata checks passed. The updated Hugo manual built
+with no broken local links or anchors. These checks do not establish GPU or
+Jetson validation.
 
 ## Relationship to the plan
 
@@ -76,15 +103,17 @@ uv run ruff check .
 uv run pytest
 uv run python examples/quickstart.py
 uv run python examples/se3_uncertainty.py
+uv run python examples/linear_prediction.py
+uv run python examples/decision_relevant_model_evaluation.py
 uv run python -m build
 uv run mkdocs build --strict
 ```
 
 For each release, review the changes, confirm the Linux/macOS CI checks, set
 the release date in the changelog and `CITATION.cff`, and verify the built wheel
-in a clean environment. The release workflow tests the installed wheel and both
-examples on Python 3.10–3.13 before PyPI publication. A pushed version tag
-such as `v0.0.3` triggers publication;
+in a clean environment. The release workflow tests the installed wheel and
+release examples on Python 3.10–3.13 before PyPI publication. A pushed version tag
+such as `v0.0.4` triggers publication;
 building locally does not publish anything.
 
 The live manual is maintained in `unswei/unswei.github.io` under

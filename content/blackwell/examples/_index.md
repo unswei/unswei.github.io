@@ -11,6 +11,8 @@ Every example is a standalone script under `examples/`, runs without plotting de
 | --- | --- | --- |
 | [Quick start](/blackwell/getting-started/quickstart/) | One compiled SE(2) EKF step | `uv run python examples/quickstart.py` |
 | [Linear Kalman filter](/blackwell/examples/linear-kalman-filter/) | Euclidean model and `jax.lax.scan` | `uv run python examples/linear_kalman_filter.py` |
+| [Linear prediction](/blackwell/guides/linear-prediction/) | Reused responses, candidate inputs and exact sensitivities | `uv run python examples/linear_prediction.py` |
+| [Decision-relevant evaluation](/blackwell/guides/decision-relevant-evaluation/) | Prediction RMSE, finite-bank decisions, completion and paired execution | `uv run python examples/decision_relevant_model_evaluation.py` |
 | [SE(2) EKF localisation](/blackwell/examples/se2-localisation/) | Simulation, manifold EKF, RMSE and NEES | `uv run python examples/se2_localisation.py` |
 | [SE(2) particle localisation](/blackwell/examples/particle-localisation/) | Weighted particles, ESS and resampling | `uv run python examples/particle_localisation.py` |
 | [SE(3) uncertainty](/blackwell/examples/se3-uncertainty/) | Correlated composition, inversion and transformed points | `uv run python examples/se3_uncertainty.py` |

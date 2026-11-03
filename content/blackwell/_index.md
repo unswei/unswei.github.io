@@ -2,7 +2,7 @@
 title: "Blackwell"
 description: "JAX-native probabilistic robotics: manifold-aware Gaussian and particle state estimation, simulation and consistency metrics."
 date: 2026-08-27T00:00:00+10:00
-lastmod: 2026-10-04T12:00:00+11:00
+lastmod: 2026-11-03
 weight: 1
 draft: false
 showChildren: false
@@ -26,9 +26,11 @@ Blackwell is a compact probabilistic-robotics library for manifold-aware Gaussia
   <div class="blackwell-docs-fact"><strong>Evaluation built in</strong><small>Simulation, RMSE and NEES are public APIs.</small></div>
 </div>
 
-Version **0.0.3** adds Python 3.10 support alongside SE(3) transforms and correlated uncertainty propagation.
-Read the [SE(3) example](/blackwell/examples/se3-uncertainty/) or the
-[release notes](https://github.com/unswei/blackwell/releases/tag/v0.0.3).
+Version **0.0.4** adds reusable linear predictions with exact sensitivities and
+decision-relevant model evaluation. Read the
+[prediction guide](/blackwell/guides/linear-prediction/),
+[decision evaluation guide](/blackwell/guides/decision-relevant-evaluation/) or
+[release notes](https://github.com/unswei/blackwell/releases/tag/v0.0.4).
 
 ## What can I do with it today?
 
@@ -38,6 +40,8 @@ Read the [SE(3) example](/blackwell/examples/se3-uncertainty/) or the
   <a class="blackwell-docs-card" href="/blackwell/guides/particle-filter/"><strong>Represent non-Gaussian beliefs</strong><small>Run a bootstrap particle filter with log-space weighting and explicit resampling.</small></a>
   <a class="blackwell-docs-card" href="/blackwell/examples/se3-uncertainty/"><strong>Propagate 3D uncertainty</strong><small>Compose and invert SE(3) transforms, and transform correlated uncertain points.</small></a>
   <a class="blackwell-docs-card" href="/blackwell/guides/simulation-and-evaluation/"><strong>Test consistency</strong><small>Generate reproducible trajectories and evaluate errors with RMSE and NEES.</small></a>
+  <a class="blackwell-docs-card" href="/blackwell/guides/linear-prediction/"><strong>Compare future inputs</strong><small>Prepare linear responses once, batch predictions and inspect exact sensitivities.</small></a>
+  <a class="blackwell-docs-card" href="/blackwell/guides/decision-relevant-evaluation/"><strong>Evaluate model decisions</strong><small>Measure finite-bank regret, constraint errors, completion claims and paired execution.</small></a>
 </div>
 
 ## A first estimate
