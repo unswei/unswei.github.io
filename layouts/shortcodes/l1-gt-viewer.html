@@ -1,0 +1,43 @@
+{{- $mesh := resources.Get "models/l1-gt.mesh" | fingerprint -}}
+{{- $style := resources.Get "css/l1-gt-viewer.css" | minify | fingerprint -}}
+{{- $script := resources.Get "js/l1-gt-viewer.js" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+<div class="l1-gt-viewer" data-l1-gt-viewer="{{ $mesh.RelPermalink }}">
+  <div class="robot-viewport" role="group" aria-label="3D camera" aria-describedby="l1-gt-camera-help">
+    <img class="robot-poster" src="{{ "images/l1-gt-500-render-001-600.webp" | relURL }}" alt="CAD rendering of the L1-GT robot" loading="lazy">
+    <canvas aria-label="Articulated model of the L1-GT robot" role="img" hidden></canvas>
+    <p class="robot-status" role="status" hidden>Loading 3D model…</p>
+    <p class="robot-sr-only" id="l1-gt-camera-help">Use the arrow keys to orbit and the plus and minus keys to zoom.</p>
+  </div>
+  <fieldset class="robot-controls" data-viewer-controls hidden disabled>
+    <legend class="robot-sr-only">Camera and joint controls</legend>
+    {{- range slice
+      (dict "id" "left-arm" "label" "Left arm" "joint" "left_arm_joint" "swatch" "left")
+      (dict "id" "right-arm" "label" "Right arm" "joint" "right_arm_joint" "swatch" "right")
+      (dict "id" "left-wheel" "label" "Left wheel" "joint" "left_wheel_joint")
+      (dict "id" "right-wheel" "label" "Right wheel" "joint" "right_wheel_joint") }}
+      <div class="robot-joint">
+        <div class="robot-joint-label">
+          <label for="l1-gt-{{ .id }}">
+            {{- with .swatch }}<span class="robot-swatch robot-{{ . }}" aria-hidden="true"></span>{{ end }}
+            {{ .label }}
+          </label>
+          <output for="l1-gt-{{ .id }}" aria-live="off">0°</output>
+        </div>
+        <input id="l1-gt-{{ .id }}" type="range" min="-180" max="180" value="0" data-joint="{{ .joint }}">
+      </div>
+    {{- end }}
+    <div class="robot-actions">
+      <button type="button" data-zoom="0.8" aria-label="Zoom in">+</button>
+      <button type="button" data-zoom="1.25" aria-label="Zoom out">−</button>
+      <button type="button" data-reset-pose>Reset pose</button>
+    </div>
+    <p class="robot-hint">Drag to orbit. Use + and − to zoom.</p>
+  </fieldset>
+  <div hidden aria-hidden="true">
+    <span data-colour="background"></span><span data-colour="grid"></span>
+    <span data-colour="body"></span><span data-colour="rim"></span><span data-colour="tread"></span>
+    <span class="robot-left" data-colour="left"></span><span class="robot-right" data-colour="right"></span>
+  </div>
+</div>
+<script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

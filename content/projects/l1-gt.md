@@ -18,6 +18,10 @@ The platform explores dynamically stable mobility using a two-wheeled base combi
 
 The aim is to provide a practical, buildable system for studying embodied control, learning, and robustness under real-world physical constraints.
 
+## Interactive 3D model
+
+{{< l1-gt-viewer >}}
+
 ## Results and outputs
 
 <div class="project-actions">
