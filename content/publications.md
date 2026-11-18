@@ -7,13 +7,17 @@ date: 2026-02-08T17:25:00+11:00
 
 ---
 
-Selected EICRL publications and current working outputs are grouped by year below.
+Selected EICRL publications and current working outputs are grouped by year below. See [Oliver Obst’s personal bibliography](https://oliver.obst.eu/publications/) for his complete publication record.
+
+## 2027
+
+- Patel, V. A., Park, L., Guo, Y., Obst, O. (2027). *C-TAG: Context-aware Temporal Attention Graph for Trajectory Prediction.* In **MIWAI 2026**, Lecture Notes in Computer Science, vol. 17148, pp. 110–122. Published online 9 October 2026. DOI: [10.1007/978-981-92-6510-7_9](https://doi.org/10.1007/978-981-92-6510-7_9)
 
 ## 2026
 
 - Jiang, S., Obst, O. (2026). *Minimum Sufficient Communication for Independent Behaviour Tree Robot Teams.* Accepted at **ACRA 2026**, the Australasian Conference on Robotics and Automation. [arXiv:2610.38176](https://arxiv.org/abs/2610.38176)
 
-- Obst, O., Stolzenburg, F. (2026). *In CEM, a World Model Is Also a Proposal Mechanism.* **Preprint.** [arXiv:2610.00921](https://arxiv.org/abs/2610.00921)
+- Cai, S., Stolzenburg, F., Obst, O. (2026). *World-Model Gradient Refinement in CEM: An Empirical Study.* **Preprint.** [arXiv:2610.00921v2](https://arxiv.org/abs/2610.00921v2)
 
 - Fan, F. O., Obst, O. (2026). *Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey.* Accepted at **ACRA 2026**, the Australasian Conference on Robotics and Automation. [arXiv:2609.39151](https://arxiv.org/abs/2609.39151)
 
