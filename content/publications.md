@@ -7,7 +7,7 @@ date: 2026-02-08T17:25:00+11:00
 
 ---
 
-Selected EICRL publications and current working outputs are grouped by year below. See [Oliver Obst’s personal bibliography](https://oliver.obst.eu/publications/) for his complete publication record.
+Selected EICRL publications and current working outputs are grouped by year below.
 
 ## 2027
 
